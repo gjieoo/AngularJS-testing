@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="angular-1.5.11/angular.js"></script>
+</head>
+<body>
+    <div ng-app="myapp" ng-controller="myctrl">
+        <input type="text" ng-model="name"/>
+        <p>你输入了{{name}}</p>
+    </div>
+    <script>
+        var app=angular.module("myapp",[]);
+        app.controller("myctrl",function($scope){
+           $scope.name="john"
+        });
+    </script>
+</body>
+</html>
+
+<!--
+这就是双向绑定
+改变输入框的值，输出会随之改变
+-->

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="angular-1.5.11/angular.js"></script>
+</head>
+<body>
+<!--<div ng-app="myApp" ng-controller="myCtrl">
+    <h1>{{carname}}</h1>
+</div>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope) {
+        $scope.carname = "dadada";
+    });
+</script>-->
+<div ng-app="myapp" ng-controller="myCtrl">
+    <h1>大家都姓{{lastName}}</h1>
+    <ul>
+        <li ng-repeat="x in names">
+              {{x}}{{lastName}}
+        </li>
+    </ul>
+</div>
+<script>
+    var app=angular.module('myapp',[]);
+    app.controller("myCtrl",function($scope,$rootScope){
+        $scope.names=['john','marry','dada'];
+        $rootScope.lastName="Doe";
+    })
+</script>
+
+</body>
+</html>
+
+<!--
+控制器中创建一个属性名carname，对应了视图中{{}}中的名称
+当在控制器中添加$scope对象时，视图可以获取到这些属性，视图中无需添加$scope前缀，直接使用属性名
+
+$rootScope可以作用于整个应用中，在循环内外都可以使用
+-->

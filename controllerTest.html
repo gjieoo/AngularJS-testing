@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="angular-1.5.11/angular.js"></script>
+</head>
+<body>
+    <div ng-app="myapp" ng-controller="myctrl">
+        名 <input type="text" ng-model="firstName"/><br/>
+        姓 <input type="text" ng-model="lastName"/><br/>
+        <p>姓名：{{firstName+" "+lastName}}</p>
+        <p>姓名：{{fullName()}}</p>
+    </div>
+    <script>
+        var app=angular.module("myapp",[]);
+        app.controller("myctrl",function($scope){
+            $scope.firstName="join";
+            $scope.lastName="Doe";
+            $scope.fullName=function(){
+                return $scope.firstName+" "+$scope.lastName;
+            }
+        });
+    </script>
+</body>
+</html>
+
+<!--
+结果为：姓名：join Doe
+
+AngularJS 使用$scope 对象来调用控制器
+
+在这个例子中主要使用到模块和控制器controller
+angular模块：var app =angular.module("myapp",[])
+angular控制器：app.controller("myctrl",function($scope){
+   $scope.firstName="join";
+   $scope.lastName="Doe";
+})
+
+控制器中可以有变量也可以有方法
+
+可将控制器存储在外部文件中，只需要在<script src="...">中引入
+-->
