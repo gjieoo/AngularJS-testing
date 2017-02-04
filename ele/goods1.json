@@ -1,0 +1,785 @@
+[{
+  "id":10001,
+  "name":"味千拉面（唐延路分店）",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"米粉面馆",
+  "deliverTime":45,
+  "deliverCost":4,
+  "salesVolume":1239
+},{
+  "id":10002,
+  "name":"执念·粉",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"米粉面馆",
+  "deliverTime":40,
+  "deliverCost":4,
+  "salesVolume":246
+
+},
+  {
+    "id":10003,
+    "name":"李昌兰烫菜",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"米粉面馆",
+    "deliverTime":49,
+    "deliverCost":4,
+    "salesVolume":3285
+
+  },
+  {
+    "id":10004,
+    "name":"重庆特色砂锅店",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"米粉面馆",
+    "deliverTime":42,
+    "deliverCost":4,
+    "salesVolume":884
+
+
+
+  },{
+  "id":10005,
+  "name":"飞鸿肉夹馍（卜蜂莲花店）",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"米粉面馆",
+  "deliverTime":39,
+  "deliverCost":4,
+  "salesVolume":212
+
+
+},{
+  "id":10006,
+  "name":"槿树语肉夹馍",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"米粉面馆",
+  "deliverTime":43,
+  "deliverCost":7.5,
+  "salesVolume":1231
+
+},
+  {
+    "id":10007,
+    "name":"赛里目大盘鸡",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"米粉面馆",
+    "deliverTime":45,
+    "deliverCost":7.5,
+    "salesVolume":124
+  },
+  {
+    "id":10008,
+    "name":"云南过桥米线",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"米粉面馆",
+    "deliverTime":40,
+    "deliverCost":4,
+    "salesVolume":126
+
+  },{
+  "id":10009,
+  "name":"飞鸿肉夹馍",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"简餐",
+  "deliverTime":39,
+  "deliverCost":4,
+  "salesVolume":212
+
+
+},{
+  "id":10010,
+  "name":"泰熙家（高新四路店）",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"简餐",
+  "deliverTime":42,
+  "deliverCost":4,
+  "salesVolume":410
+
+},
+  {
+    "id":10011,
+    "name":"一汁餐饮",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"简餐",
+    "deliverTime":38,
+    "deliverCost":4,
+    "salesVolume":78
+
+  },
+  {
+    "id":10012,
+    "name":"札卡小馆",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"简餐",
+    "deliverTime":43,
+    "deliverCost":4,
+    "salesVolume":10
+
+  },{
+  "id":10013,
+  "name":"麻婆鱼",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"简餐",
+  "deliverTime":39,
+  "deliverCost":5.5,
+  "salesVolume":169
+
+},{
+  "id":10014,
+  "name":"Table for two",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"简餐",
+  "deliverTime":20,
+  "deliverCost":11,
+  "salesVolume":4
+},
+  {
+    "id":10015,
+    "name":"邵家一品香凉皮",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"简餐",
+    "deliverTime":34,
+    "deliverCost":7.5,
+    "salesVolume":8
+  },
+  {
+    "id":10016,
+    "name":"幸运辣椒",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"简餐",
+    "deliverTime":44,
+    "deliverCost":7.5,
+    "salesVolume":0
+
+  },
+  {
+    "id":10017,
+    "name":"功福咖烤猪蹄",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"盖浇饭",
+    "deliverTime":40,
+    "deliverCost":4,
+    "salesVolume":387
+  },{
+  "id":10018,
+  "name":"方圆人家川菜馆",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"盖浇饭",
+  "deliverTime":45,
+  "deliverCost":6,
+  "salesVolume":1883
+
+},
+  {
+    "id":10019,
+    "name":"赛里目大盘鸡",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"盖浇饭",
+    "deliverTime":45,
+    "deliverCost":7.5,
+    "salesVolume":124
+
+  },
+  {
+    "id":10020,
+    "name":"小婧家·台湾料理",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"盖浇饭",
+    "deliverTime":45,
+    "deliverCost":4,
+    "salesVolume":54
+
+  },{
+  "id":10021,
+  "name":"川之韵煎饼屋",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"盖浇饭",
+  "deliverTime":45,
+  "deliverCost":3,
+  "salesVolume":211
+
+},{
+  "id":10022,
+  "name":"海塘大盘鸡拌面烤肉",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"盖浇饭",
+  "deliverTime":44,
+  "deliverCost":7,
+  "salesVolume":105
+
+},
+  {
+    "id":10023,
+    "name":"忆小馆怀旧餐厅",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"盖浇饭",
+    "deliverTime":45,
+    "deliverCost":4,
+    "salesVolume":71
+  },
+  {
+    "id":10024,
+    "name":"麻婆鱼庄（自选店）",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"盖浇饭",
+    "deliverTime":42,
+    "deliverCost":5,
+    "salesVolume":106
+
+  },{
+  "id":10025,
+  "name":"重庆特色砂锅店",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"香锅砂锅",
+  "deliverTime":42,
+  "deliverCost":5,
+  "salesVolume":106
+
+},{
+  "id":10026,
+  "name":"尚蟹俙肉蟹煲",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"香锅砂锅",
+  "deliverTime":45,
+  "deliverCost":4,
+  "salesVolume":51
+
+},
+  {
+    "id":10027,
+    "name":"小米串串（卜蜂店）",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"香锅砂锅",
+    "deliverTime":45,
+    "deliverCost":4,
+    "salesVolume":180
+
+  },
+  {
+    "id":10028,
+    "name":"云南过桥米线",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"香锅砂锅",
+    "deliverTime":40,
+    "deliverCost":4,
+    "salesVolume":126
+
+
+  },{
+  "id":10029,
+  "name":"九阿哥火锅外卖",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"香锅砂锅",
+  "deliverTime":45,
+  "deliverCost":4,
+  "salesVolume":57
+
+
+},{
+  "id":10030,
+  "name":"重庆砂锅店",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"香锅砂锅",
+  "deliverTime":40,
+  "deliverCost":4,
+  "salesVolume":89
+},
+  {
+    "id":10031,
+    "name":"李烙重庆鸡公煲",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"香锅砂锅",
+    "deliverTime":45,
+    "deliverCost":7,
+    "salesVolume":39
+  },
+  {
+    "id":10032,
+    "name":"骨汤剪刀面",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"香锅砂锅",
+    "deliverTime":45,
+    "deliverCost":7.5,
+    "salesVolume":54
+
+  },
+  {
+    "id":10033,
+    "name":"李昌兰烫菜",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"麻辣烫",
+    "deliverTime":45,
+    "deliverCost":4,
+    "salesVolume":3239
+
+  },{
+  "id":10034,
+  "name":"小米串串（卜蜂店）",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"麻辣烫",
+  "deliverTime":45,
+  "deliverCost":4,
+  "salesVolume":180
+},{
+  "id":10035,
+  "name":"杨国富麻辣烫",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"麻辣烫",
+  "deliverTime":45,
+  "deliverCost":5.5,
+  "salesVolume":225
+},
+  {
+    "id":10036,
+    "name":"新疆椒麻鸡麻辣烫",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"麻辣烫",
+    "deliverTime":39,
+    "deliverCost":5.5,
+    "salesVolume":88
+  },
+  {
+    "id":10037,
+    "name":"六香冒非冒",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"麻辣烫",
+    "deliverTime":40,
+    "deliverCost":4,
+    "salesVolume":2
+
+  },{
+  "id":10038,
+  "name":"重庆六婆秘制香锅",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"麻辣烫",
+  "deliverTime":45,
+  "deliverCost":4,
+  "salesVolume":652
+
+},{
+  "id":10039,
+  "name":"一丈红关东冒菜",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"麻辣烫",
+  "deliverTime":45,
+  "deliverCost":6,
+  "salesVolume":54
+},
+  {
+    "id":10040,
+    "name":"冒泡冒菜馆",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"麻辣烫",
+    "deliverTime":44,
+    "deliverCost":4,
+    "salesVolume":125
+  },
+  {
+  "id":10041,
+  "name":"执念·粉",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"饺子馄饨",
+  "deliverTime":40,
+  "deliverCost":4,
+  "salesVolume":246
+
+},{
+  "id":10042,
+  "name":"四季鲜饺子馆",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"饺子馄饨",
+  "deliverTime":37,
+  "deliverCost":6,
+  "salesVolume":602
+},
+  {
+    "id":10043,
+    "name":"思念水饺",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"饺子馄饨",
+    "deliverTime":36,
+    "deliverCost":4,
+    "salesVolume":151
+  },
+  {
+    "id":10044,
+    "name":"小馋虫麻食",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"饺子馄饨",
+    "deliverTime":45,
+    "deliverCost":4,
+    "salesVolume":2232
+
+  },{
+  "id":10045,
+  "name":"诚净和蒸饺",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"饺子馄饨",
+  "deliverTime":40,
+  "deliverCost":8.5,
+  "salesVolume":798
+
+},{
+  "id":10046,
+  "name":"蒲城蒸饺",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"饺子馄饨",
+  "deliverTime":45,
+  "deliverCost":4,
+  "salesVolume":54
+
+},
+  {
+    "id":10047,
+    "name":"大福饺子",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"饺子馄饨",
+    "deliverTime":32,
+    "deliverCost":5.5,
+    "salesVolume":50
+  },
+  {
+    "id":10048,
+    "name":"福建千里香馄饨王",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"饺子馄饨",
+    "deliverTime":41,
+    "deliverCost":7,
+    "salesVolume":140
+
+
+  },
+  {
+    "id":10049,
+    "name":"宜品香黄焖鸡",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"黄焖鸡米饭",
+    "deliverTime":40,
+    "deliverCost":4,
+    "salesVolume":1283
+  },{
+  "id":10050,
+  "name":"正宗黄焖鸡米饭",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"黄焖鸡米饭",
+  "deliverTime":44,
+  "deliverCost":15,
+  "salesVolume":325
+},
+  {
+    "id":10051,
+    "name":"福莱香黄焖鸡排骨米饭",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"黄焖鸡米饭",
+    "deliverTime":39,
+    "deliverCost":9,
+    "salesVolume":257
+
+  },
+  {
+    "id":10052,
+    "name":"涵敬斋黄焖鸡",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"黄焖鸡米饭",
+    "deliverTime":45,
+    "deliverCost":4,
+    "salesVolume":17
+
+  },{
+  "id":10053,
+  "name":"香稻家黄焖鸡米饭",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"黄焖鸡米饭",
+  "deliverTime":45,
+  "deliverCost":4,
+  "salesVolume":376
+
+},{
+  "id":10054,
+  "name":"涵敬斋黄焖鸡米饭",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"黄焖鸡米饭",
+  "deliverTime":42,
+  "deliverCost":6,
+  "salesVolume":59
+},
+  {
+    "id":10055,
+    "name":"黄焖鸡米饭",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"黄焖鸡米饭",
+    "deliverTime":43,
+    "deliverCost":7.5,
+    "salesVolume":1130
+  },
+  {
+    "id":10056,
+    "name":"食必思黄焖鸡米饭",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"黄焖鸡米饭",
+    "deliverTime":37,
+    "deliverCost":4,
+    "salesVolume":84
+
+  },{
+  "id":10057,
+  "name":"小六汤包（边家村店）",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"包子粥店",
+  "deliverTime":45,
+  "deliverCost":5.5,
+  "salesVolume":1024
+
+},{
+  "id":10058,
+  "name":"槿树语肉夹馍",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"包子粥店",
+  "deliverTime":43,
+  "deliverCost":7.5,
+  "salesVolume":1231
+
+},
+  {
+    "id":10059,
+    "name":"",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"包子粥店",
+    "deliverTime":41,
+    "deliverCost":4,
+    "salesVolume":179
+  },
+  {
+    "id":10060,
+    "name":"东东包（太白店）",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"包子粥店",
+    "deliverTime":44,
+    "deliverCost":4,
+    "salesVolume":324
+
+
+  },{
+  "id":10061,
+  "name":"喜阿婆粥饼店",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"包子粥店",
+  "deliverTime":45,
+  "deliverCost":15,
+  "salesVolume":687
+
+},{
+  "id":10062,
+  "name":"谷记粥铺",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"包子粥店",
+  "deliverTime":45,
+  "deliverCost":4,
+  "salesVolume":273
+},
+  {
+    "id":10063,
+    "name":"众家灯火煎饼庄",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"包子粥店",
+    "deliverTime":44,
+    "deliverCost":4,
+    "salesVolume":324
+  },
+  {
+    "id":10064,
+    "name":"古城樊氏（金辉店）",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"包子粥店",
+    "deliverTime":43,
+    "deliverCost":8.5,
+    "salesVolume":1708
+
+  },{
+  "id":10065,
+  "name":"德克士（土门店）",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"汉堡",
+  "deliverTime":45,
+  "deliverCost":7,
+  "salesVolume":1153
+
+},{
+  "id":10066,
+  "name":"吉米汉堡",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"汉堡",
+  "deliverTime":44,
+  "deliverCost":5,
+  "salesVolume":2721
+},
+  {
+    "id":10067,
+    "name":"德克士（西斜七路店）",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"汉堡",
+    "deliverTime":41,
+    "deliverCost":5.5,
+    "salesVolume":541
+
+  },
+  {
+    "id":10068,
+    "name":"effie（艾菲烘焙）",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"汉堡",
+    "deliverTime":43,
+    "deliverCost":10,
+    "salesVolume":393
+
+
+  },{
+  "id":10069,
+  "name":"赛百味（高新店）",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"汉堡",
+  "deliverTime":39,
+  "deliverCost":4,
+  "salesVolume":185
+
+
+},{
+  "id":10070,
+  "name":"齐乐脆皮鸡米饭",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"汉堡",
+  "deliverTime":43,
+  "deliverCost":7.5,
+  "salesVolume":3
+
+},
+  {
+    "id":10071,
+    "name":"汉堡王（高新店）",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"汉堡",
+    "deliverTime":45,
+    "deliverCost":4,
+    "salesVolume":2001
+  },
+  {
+    "id":10072,
+    "name":"Aimi汉堡",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"汉堡",
+    "deliverTime":45,
+    "deliverCost":7.5,
+    "salesVolume":272
+
+  },{
+  "id":10073,
+  "name":"齐乐脆皮鸡米饭",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"烧腊饭",
+  "deliverTime":42,
+  "deliverCost":7.5,
+  "salesVolume":3
+
+},{
+  "id":10074,
+  "name":"广东文记烧腊（高新店）",
+  "rank":1,
+  "info":"快餐便当",
+  "specificallyInfo":"烧腊饭",
+  "deliverTime":45,
+  "deliverCost":4,
+  "salesVolume":345
+},
+  {
+    "id":10075,
+    "name":"这儿有家龙虾饭",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"咖喱饭",
+    "deliverTime":45,
+    "deliverCost":9,
+    "salesVolume":1971
+  },
+  {
+    "id":10076,
+    "name":"袁记肉夹馍",
+    "rank":1,
+    "info":"快餐便当",
+    "specificallyInfo":"咖喱饭",
+    "deliverTime":42,
+    "deliverCost":11,
+    "salesVolume":486
+
+  }]
