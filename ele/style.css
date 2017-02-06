@@ -12,12 +12,12 @@ a{
     text-decoration:none;
 }
 #wrap {
-    width: 1868px;
+    width: 1869px;
     float: left;
     font-family: PingFang SC, Lantinghei SC, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
 }
 #nav{
-    width:1868px;
+    width:1869px;
     height:60px;
     background:#1e89e0;
 }
@@ -135,18 +135,26 @@ a{
     height:58px;
     border:1px solid #e6e6e6;
     border-top-width:2px;
-    margin:-6px auto 0;
+    border-bottom-width:0px;
+    margin:0 auto;
     font-size: 13px;
+}
+#options li,.table a{
+    text-align:center;
+    line-height:40px;
+    float:left;
+    color:#666;
+    cursor:pointer;
+    padding:2px;
 }
 #options li{
     width:54px;
-    height:60px;
-    text-align:center;
-    line-height:60px;
-    float:left;
-    color:#666;
+}
+.table a{
+    width:80px;
+}
+#options li{
     margin-left:34px;
-    cursor:pointer;
 }
 #options .all{
     width:80px;
@@ -157,25 +165,99 @@ a{
     padding-left:22px;
     cursor:default;
 }
-#menu{
+#content{
+    clear:both;
     width:1184px;
     height:800px;
     border:1px solid #e6e6e6;
     margin:20px auto 0;
     /*clear:both;*/
 }
-#menu li{
+#content li{
+    width:250px;
+    height:140px;
     float:left;
     margin:0 24px 0 21px;
 }
-#menu li:nth-child(1),#menu li:nth-child(2),#menu li:nth-child(3),#menu li:nth-child(4){
-    float:left;
+#content li:nth-child(1),#content li:nth-child(2),#content li:nth-child(3),#content li:nth-child(4){
     margin-top:21px;
+}
+.submenu{
+    width:1180px;
+    float:left;
+    border:1px solid #e6e6e6;
+    border-top-width: 0;
+    margin:-1px 0 20px -1px;
+}
+.submenu-active{
+    background: #0089dc;
+    border-radius:20px;
+    color:#fff !important;
 }
 #side{
     width:34px;
+    height:974px;
+    background:#504d53;
+    margin-bottom:22px;
+    position: fixed;
+    right:0;
+}
+.info{
+    width:34px;
+    height:166px;
+    float:left;
+    position: relative;
+    top:265px;
+}
+.info .indent{
+    width:35px;
+    height:36px;
+    position:absolute;
+    left:10px;
+}
+.info .indent:hover{
+    background:#26a2ff;
+}
+.info .line1{
+    position:absolute;
+    top:20px;
+    left:9px;
+}
+.info .cart{
+    position:absolute;
+    top:48px;
+    left:9px;
+}
+.info .myInfo{
+    position:absolute;
+    top:152px;
+    left:9px;
+}
+
+.info .line2{
+    position:absolute;
+    top:120px;
+    left:9px;
+}
+.indentInfo{
+    position:absolute;
+    top:2px;
+    left:-92px;
+}
+.contact{
+    width:34px;
     height:60px;
     float:left;
-    background:#504d53;
+    position: relative;
+    top:680px;
+    left:9px;
+}
+.contact .download{
+    position:absolute;
+    left:1px;
+}
+.contact .service{
+    position:absolute;
+    top:40px;
 }
 
