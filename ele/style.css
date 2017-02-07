@@ -1,6 +1,9 @@
 *{
-    padding:0px;
-    margin:0px;
+    padding:0;
+    margin:0;
+}
+body{
+    background: #fff;
 }
 li{
     list-style: none;
@@ -24,7 +27,7 @@ a{
 .logo{
     width:112px;
     height:60px;
-    margin:0px 20px 0px 356px ;
+    margin:0 20px 0 356px ;
     float:left;
 }
 .nav-list{
@@ -44,7 +47,6 @@ a{
     font-size: 15px;
     color:#e7faff;
     font-weight: bold;
-    font-family: "宋体";
 }
 .nav-list li:hover{
     background:#0c77d1;
@@ -69,7 +71,7 @@ a{
 }
 .nav-link .server{
     width:94px;
-    background: url("img/nav.gif") no-repeat left 0px;
+    background: url("img/nav.gif") no-repeat left 0;
 }
 .server span{
     padding-left:28px;
@@ -125,7 +127,7 @@ a{
     font-size:13px;
     color:#a9a9a9;
     padding-left:1em;
-    margin:10px 0px 0 620px;
+    margin:10px 0 0 620px;
     border:1px solid #ccc;
     background: url("img/search.gif") no-repeat 260px 9px;
 }
@@ -140,6 +142,7 @@ a{
     font-size: 13px;
 }
 #options li,.table a{
+    width:80px;
     text-align:center;
     line-height:40px;
     float:left;
@@ -147,31 +150,40 @@ a{
     cursor:pointer;
     padding:2px;
 }
-#options li{
-    width:54px;
+.tab{
+    height:40px;
+    line-height:40px;
+    padding: 4px 6px;
+    border-radius:20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
 }
-.table a{
-    width:80px;
-}
-#options li{
-    margin-left:34px;
+.tab.hover{
+    background: #0089dc;
+    border-radius:20px;
+    color:#fff !important;
 }
 #options .all{
     width:80px;
     height:60px;
     line-height:54px;
     color:#999;
-    margin-left:0px;
+    margin-left:0;
     padding-left:22px;
     cursor:default;
 }
+#options .tab:first-child{
+    margin-left:90px;
+}
+
 #content{
     clear:both;
     width:1184px;
     height:800px;
     border:1px solid #e6e6e6;
     margin:20px auto 0;
-    /*clear:both;*/
+    position:relative;
 }
 #content li{
     width:250px;
@@ -189,10 +201,10 @@ a{
     border-top-width: 0;
     margin:-1px 0 20px -1px;
 }
-.submenu-active{
-    background: #0089dc;
-    border-radius:20px;
-    color:#fff !important;
+.baozi1{
+    position:absolute;
+    top:2px;
+    left:260px;
 }
 #side{
     width:34px;
@@ -209,39 +221,25 @@ a{
     position: relative;
     top:265px;
 }
-.info .indent{
-    width:35px;
-    height:36px;
+.info .indent,.info .line1,.info .cart,.info .myInfo,.info .line2{
     position:absolute;
-    left:10px;
-}
-.info .indent:hover{
-    background:#26a2ff;
-}
-.info .line1{
-    position:absolute;
-    top:20px;
     left:9px;
 }
 .info .cart{
-    position:absolute;
     top:48px;
-    left:9px;
 }
 .info .myInfo{
-    position:absolute;
     top:152px;
-    left:9px;
 }
-
+.info .line1{
+    top:20px;
+}
 .info .line2{
-    position:absolute;
     top:120px;
-    left:9px;
 }
 .indentInfo{
     position:absolute;
-    top:2px;
+    top:-5px;
     left:-92px;
 }
 .contact{
@@ -250,14 +248,21 @@ a{
     float:left;
     position: relative;
     top:680px;
-    left:9px;
 }
 .contact .download{
     position:absolute;
-    left:1px;
+    left:10px;
 }
 .contact .service{
     position:absolute;
     top:40px;
+    left:9px;
 }
+.contact .downloadInfo{
+    position:absolute;
+    top:-162px;
+    left:-150px;
+}
+
+
 

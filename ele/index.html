@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <script src="angular-1.5.11/angular-route.js" type="text/javascript"></script>
     <script src="angular-1.5.11/angular.js" type="text/javascript"></script>
+    <script src="ele.js" type="text/javascript"></script>
     <link rel="stylesheet" href="style.css"/>
     <title>ele首页</title>
 </head>
@@ -36,91 +37,75 @@
             </div>
             <input type="text" value="搜索商家、美食..."/>
         </div>
-        <ul id="options" ng-controller="appCon">
+        <ul id="options" ng-controller="appCon" >
             <li class="all">商家分类：</li>
             <my-tabs><!--最外层指令-->
                 <my-pane title="全部商家"></my-pane>
                 <my-pane title="快餐便当"><!--内层指令-->
-                    <ul class="tab1">
-                        <li ><a class="submenu-active" href="#">全部快餐便当</a></li>
-                        <li><a href="#">米粉面馆</a></li>
-                        <li><a href="#">简餐</a></li>
-                        <li><a href="#">盖浇饭</a></li>
-                        <li><a href="#">香锅砂锅</a></li>
-                        <li><a href="#">麻辣烫</a></li>
-                        <li><a href="#">饺子馄饨</a></li>
-                        <li><a href="#">黄焖鸡米饭</a></li>
-                        <li><a href="#">包子粥店</a></li>
-                        <li><a href="#">汉堡</a></li>
-                        <li><a href="#">烧腊饭</a></li>
-                        <li><a href="#">咖喱饭</a></li>
+                    <ul  ng-controller="myCtrl">
+                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data1">
+                            {{x}}
+                        </li>
                     </ul>
                 </my-pane>
                 <my-pane title="特色菜系"><!--内层指令-->
-                    <li ><a class="submenu-active" href="#">全部特色菜系</a></li>
-                    <li><a href="#">川湘菜</a></li>
-                    <li><a href="#">其他菜系</a></li>
-                    <li><a href="#">西北菜</a></li>
-                    <li><a href="#">火锅烤鱼</a></li>
-                    <li><a href="#">海鲜</a></li>
-                    <li><a href="#">粤菜</a></li>
-                    <li><a href="#">新疆菜</a></li>
-                    <li><a href="#">东北菜</a></li>
-                    <li><a href="#">江浙菜</a></li>
-                    <li><a href="#">鲁菜</a></li>
-                    <li><a href="#">云南菜</a></li>
+                    <ul ng-controller="myCtrl">
+                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data2">
+                            {{x}}
+                        </li>
+                    </ul>
                 </my-pane>
                 <my-pane title="异国料理"><!--内层指令-->
-                    <li ><a class="submenu-active" href="#">全部异国料理</a></li>
-                    <li><a href="#">披萨意面</a></li>
-                    <li><a href="#">日韩料理</a></li>
-                    <li><a href="#">西餐</a></li>
-                    <li><a href="#">东南亚菜</a></li>
+                    <ul ng-controller="myCtrl">
+                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data3">
+                            {{x}}
+                        </li>
+                    </ul>
                 </my-pane>
                 <my-pane title="小吃夜宵"><!--内层指令-->
-                    <li ><a class="submenu-active" href="#">全部小吃夜宵</a></li>
-                    <li><a href="#">地方小吃</a></li>
-                    <li><a href="#">炸鸡炸串</a></li>
-                    <li><a href="#">小龙虾</a></li>
-                    <li><a href="#">烧烤</a></li>
-                    <li><a href="#">鸭脖卤味</a></li>
-                    <li><a href="#">零食</a></li>
+                    <ul ng-controller="myCtrl">
+                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data4">
+                            {{x}}
+                        </li>
+                    </ul>
                 </my-pane>
                 <my-pane title="甜品饮品"><!--内层指令-->
-                    <li ><a class="submenu-active" href="#">全部甜品饮品</a></li>
-                    <li><a href="#">甜品</a></li>
-                    <li><a href="#">奶茶果汁</a></li>
-                    <li><a href="#">咖啡</a></li>
+                    <ul ng-controller="myCtrl">
+                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data5">
+                            {{x}}
+                        </li>
+                    </ul>
                 </my-pane>
                 <my-pane title="果蔬生鲜"><!--内层指令-->
-                    <li ><a class="submenu-active" href="#">全部果蔬生鲜</a></li>
-                    <li><a href="#">水果</a></li>
-                    <li><a href="#">蔬菜</a></li>
-                    <li><a href="#">生鲜</a></li>
-                    <li><a href="#">海鲜水产</a></li>
+                    <ul ng-controller="myCtrl">
+                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data6">
+                            {{x}}
+                        </li>
+                    </ul>
                 </my-pane>
                 <my-pane title="鲜花蛋糕"><!--内层指令-->
-                    <li ><a class="submenu-active" href="#">全部鲜花蛋糕</a></li>
-                    <li><a href="#">鲜花</a></li>
-                    <li><a href="#">蛋糕</a></li>
-                    <li><a href="#">面包</a></li>
+                    <ul ng-controller="myCtrl">
+                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data7">
+                            {{x}}
+                        </li>
+                    </ul>
                 </my-pane>
                 <my-pane title="商店超市"><!--内层指令-->
-                    <li ><a class="submenu-active" href="#">全部商店超市</a></li>
-                    <li><a href="#">超市</a></li>
-                    <li><a href="#">水站</a></li>
-                    <li><a href="#">奶站</a></li>
-                    <li><a href="#">粮油</a></li>
-                    <li><a href="#">茶</a></li>
-                    <li><a href="#">便利店</a></li>
-                    <li><a href="#">美妆母婴</a></li>
-                    <li><a href="#">零食饮料</a></li>
-                    <li><a href="#">名酒坊</a></li>
+                    <ul ng-controller="myCtrl">
+                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data8">
+                            {{x}}
+                        </li>
+                    </ul>
                 </my-pane>
             </my-tabs>
         </ul>
-        <ul id="content">
-            <li><a href="#"><img src="img/包子1.gif" alt="包子"/></a></li>
+        <ul id="content" >
+            <li ng-controller="content" ng-mouseenter="showDetails()" ng-mouseleave="hideDetails()">
+                <a href="#"><img src="img/包子1.gif" alt="包子"/></a>
+                <div class="baozi1" ng-show="show">
+                    <img src="img/飞鸿肉夹馍.gif"/>
+                </div>
+            </li>
             <li><a href="#"><img src="img/包子2.gif" alt="包子"/></a></li>
             <li><a href="#"><img src="img/包子3.gif" alt="包子"/></a></li>
             <li><a href="#"><img src="img/包子4.gif" alt="包子"/></a></li>
@@ -140,81 +125,30 @@
     </div>
     <div id="side">
         <ul class="info">
-            <li class="indent" ng-mouseenter="show = true" ng-mouseleave="show = false">
+            <li class="indent" ng-mouseenter="show1 = true" ng-mouseleave="show1 = false">
                 <a href="#"><img src="img/side1.gif" alt="订单"/></a>
-                <div class="indentInfo" ng-show="show"><img src="img/indentInfo.gif" alt=""/></div>
+                <div class="indentInfo" ng-show="show1"><img src="img/indentInfo.gif" alt=""/></div>
             </li>
             <li class="line1"><a href="#"><img src="img/side2.gif"/></a></li>
             <li class="cart"><a href="#"><img src="img/side3.gif" alt="购物车"/></a></li>
             <li class="line2"><a href="#"><img src="img/side2.gif"/></a></li>
-            <li class="myInfo"><a href="#"><img src="img/side4.gif" alt="用户信息"/></a></li>
+            <li class="myInfo" ng-mouseenter="show2 = true" ng-mouseleave="show2 = false">
+                <a href="#"><img src="img/side4.gif" alt="用户信息"/></a>
+                <div class="indentInfo" ng-show="show2"><img src="img/myInfor.gif" alt=""/></div>
+            </li>
         </ul>
         <ul class="contact">
-            <li class="download"><a href="#"><img src="img/side5.gif" alt="下载"/></a></li>
-            <li class="service"><a href="#"><img src="img/side6.gif" alt="在线客服"/></a></li>
+            <li class="download" ng-mouseenter="show3 = true" ng-mouseleave="show3 = false">
+                <a href="#"><img src="img/side5.gif" alt="下载"/></a>
+                <div class="downloadInfo" ng-show="show3"><img src="img/downloadInfo.gif" alt=""/></div>
+            </li>
+            <li class="service" ng-mouseenter="show4 = true" ng-mouseleave="show4 = false">
+                <a href="#"><img src="img/side6.gif" alt="在线客服"/></a>
+                <div class="indentInfo" ng-show="show4"><img src="img/serviceInfo.gif" alt=""/></div>
+            </li>
         </ul>
 
     </div>
-    <script>
-        var app=angular.module("myApp",['template'])
-        .controller("appCon",["$scope",function($scope){
 
-        }])
-                .directive("myTabs", function () {
-                    return{
-                        restrict:"EA",
-                        transclude: true,
-                        scope:{},
-                        templateUrl:"myTabs.html",
-                        controller:["$scope", function ($scope) {//使用controller让最内层指令来继承外层指令，这样内层就可以
-                                                                    // 通过scope的传导，来与外层指令进行数据之间的传递
-                            var panes = $scope.scopes = [];
-                            $scope.select= function (pane) {        //实现tabs功能
-                                angular.forEach(panes, function (scope) {      //遍历所有内存指令scope，统一隐藏内容。
-                                    scope.selected=false;
-                                });
-                                pane.selected=true;                            //通过ng-repeat
-                            };
-
-                            this.addScope= function (scope) {                  //由内层指令来继承，把内层指令的scope，传到进外层指令进行控制
-                                if(panes.length===0){
-                                    $scope.select(scope);
-                                }
-                                panes.push(scope);                              //把内层指令数组，传入外层指令scope数组。
-                            }
-                        }]
-                    }
-                })
-                .directive("myPane", function () {
-                    return{
-                        restrict:'EA',
-                        scope:{
-                            title:'@',
-                            content:'@'
-                        },
-                        transclude: true,
-                        require:'^myTabs',                                     //继承外层指令
-                        templateUrl:"myPane.html",
-                        link: function (scope, elemenet,attrs,myTabsController) {
-                            myTabsController.addScope(scope);                    //把内层指令的scope存入到外层指令中，让外层遍历。
-                        }
-                    }
-                });
-        angular.module("template",[])
-                .run(["$templateCache", function ($templateCache) {
-                    $templateCache.put("myTabs.html","<div class='table'>" +
-                    "<ul>" +
-                    "<li ng-repeat='pane in scopes'>" +
-                    "<a href='#' ng-click='select(pane)'>{{pane.title}}<a/>" +
-                    "</li>" +
-                    "</ul>" +
-                    "<div ng-transclude></div>" +
-                    "</div>")
-                }])
-                .run(["$templateCache", function ($templateCache) {
-                    $templateCache.put("myPane.html","<div class='submenu' ng-show='selected' ng-transclude>" +
-                    "</div>")
-                }])
-    </script>
 </body>
 </html>

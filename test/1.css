@@ -1,0 +1,2 @@
+#div1 div,#div2 div{width:200px;height:200px;border:1px pink solid;display:none;}
+#div1 input.active,#div2 input.active{background:#1e89e0;}
