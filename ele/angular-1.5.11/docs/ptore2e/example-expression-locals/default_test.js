@@ -1,24 +1,24 @@
-describe("", function() {
-  var rootEl;
-  beforeEach(function() {
-    rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-expression-locals/index.html");
-  });
-  
-it('should calculate expression in binding', function() {
-  if (browser.params.browser === 'safari') {
-    // Safari can't handle dialogs.
-    return;
-  }
-  element(by.css('[ng-click="greet()"]')).click();
+describe("", function () {
+    var rootEl;
+    beforeEach(function () {
+        rootEl = browser.rootEl;
+        browser.get("build/docs/examples/example-expression-locals/index.html");
+    });
 
-  // We need to give the browser time to display the alert
-  browser.wait(protractor.ExpectedConditions.alertIsPresent(), 1000);
+    it('should calculate expression in binding', function () {
+        if (browser.params.browser === 'safari') {
+            // Safari can't handle dialogs.
+            return;
+        }
+        element(by.css('[ng-click="greet()"]')).click();
 
-  var alertDialog = browser.switchTo().alert();
+        // We need to give the browser time to display the alert
+        browser.wait(protractor.ExpectedConditions.alertIsPresent(), 1000);
 
-  expect(alertDialog.getText()).toEqual('Hello World');
+        var alertDialog = browser.switchTo().alert();
 
-  alertDialog.accept();
-});
+        expect(alertDialog.getText()).toEqual('Hello World');
+
+        alertDialog.accept();
+    });
 });

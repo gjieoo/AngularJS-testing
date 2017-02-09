@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
+
 <head lang="en">
     <meta charset="UTF-8">
     <script src="angular-1.5.11/angular.js" type="text/javascript"></script>
@@ -8,129 +9,191 @@
     <link rel="stylesheet" href="style.css"/>
     <title>ele首页</title>
 </head>
+
 <body>
-    <div id="wrap">
-        <div id="nav">
-            <div class="logo">
-                <img  src="img/logo.gif" alt="logo"/>
-            </div>
-            <ul class="nav-list">
-                <li class="active"><a href="javascript:;">首页</a></li>
-                <li><a href="javascript:;">我的订单</a></li>
-                <li><a href="javascript:;">加盟合作</a></li>
-            </ul>
-            <ul class="nav-link">
-                <li class="server">
-                    <span>服务中心</span>
-                </li>
-                <li class="phone">
-                    <span>手机应用</span>
-                </li>
-            </ul>
-            <div class="sign-logon">
-                <span>登录/注册</span>
-            </div>
+<div id="wrap">
+    <div id="nav">
+        <div class="logo">
+            <img src="img/logo.gif" alt="logo"/>
         </div>
-        <div id="position">
-            <div class="location">
-                <i>当前位置：</i><span>雁塔区电子城街道高新...</span><strong>[切换地址]</strong>
-            </div>
-            <input type="text" value="搜索商家、美食..."/>
-        </div>
-        <div id="options" ng-controller="appCon" >
-            <li class="all">商家分类：</li>
-            <my-tabs><!--最外层指令-->
-                <my-pane title="全部商家" ng-click="$location.path('index')"></my-pane>
-                <my-pane title="快餐便当" ng-click="$location.path('bbb')"><!--内层指令-->
-                    <ul  ng-controller="myCtrl">
-                        <li class="tab"  ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data1">
-                            {{x}}
-                        </li>
-                    </ul>
-                </my-pane>
-                <my-pane title="特色菜系" ng-click="$location.path('ccc')"><!--内层指令-->
-                    <ul ng-controller="myCtrl">
-                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data2">
-                            {{x}}
-                        </li>
-                    </ul>
-                </my-pane>
-                <my-pane title="异国料理"><!--内层指令-->
-                    <ul ng-controller="myCtrl">
-                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data3">
-                            {{x}}
-                        </li>
-                    </ul>
-                </my-pane>
-                <my-pane title="小吃夜宵"><!--内层指令-->
-                    <ul ng-controller="myCtrl">
-                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data4">
-                            {{x}}
-                        </li>
-                    </ul>
-                </my-pane>
-                <my-pane title="甜品饮品"><!--内层指令-->
-                    <ul ng-controller="myCtrl">
-                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data5">
-                            {{x}}
-                        </li>
-                    </ul>
-                </my-pane>
-                <my-pane title="果蔬生鲜"><!--内层指令-->
-                    <ul ng-controller="myCtrl">
-                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data6">
-                            {{x}}
-                        </li>
-                    </ul>
-                </my-pane>
-                <my-pane title="鲜花蛋糕"><!--内层指令-->
-                    <ul ng-controller="myCtrl">
-                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data7">
-                            {{x}}
-                        </li>
-                    </ul>
-                </my-pane>
-                <my-pane title="商店超市"><!--内层指令-->
-                    <ul ng-controller="myCtrl">
-                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data8">
-                            {{x}}
-                        </li>
-                    </ul>
-                </my-pane>
-            </my-tabs>
-            <ul id="content" ng-view>
-                <my-imgs >
-                    <!--<my-img></my-img>-->
-                </my-imgs>
-            </ul>
+        <ul class="nav-list">
+            <li class="active"><a href="javascript:;">首页</a></li>
+            <li><a href="javascript:;">我的订单</a></li>
+            <li><a href="javascript:;">加盟合作</a></li>
+        </ul>
+        <ul class="nav-link">
+            <li class="server">
+                <span>服务中心</span>
+            </li>
+            <li class="phone">
+                <span>手机应用</span>
+            </li>
+        </ul>
+        <div class="sign-logon">
+            <span>登录/注册</span>
         </div>
     </div>
-    <div id="side">
-        <ul class="info">
-            <li class="indent" ng-mouseenter="show1 = true" ng-mouseleave="show1 = false">
-                <a href="#"><img src="img/side1.gif" alt="订单"/></a>
-                <div class="indentInfo" ng-show="show1"><img src="img/indentInfo.gif" alt=""/></div>
-            </li>
-            <li class="line1"><a href="#"><img src="img/side2.gif"/></a></li>
-            <li class="cart"><a href="#"><img src="img/side3.gif" alt="购物车"/></a></li>
-            <li class="line2"><a href="#"><img src="img/side2.gif"/></a></li>
-            <li class="myInfo" ng-mouseenter="show2 = true" ng-mouseleave="show2 = false">
-                <a href="#"><img src="img/side4.gif" alt="用户信息"/></a>
-                <div class="indentInfo" ng-show="show2"><img src="img/myInfor.gif" alt=""/></div>
-            </li>
+    <div id="position">
+        <div class="location">
+            <i>当前位置：</i><span>雁塔区电子城街道高新...</span><strong>[切换地址]</strong>
+        </div>
+        <input type="text" value="搜索商家、美食..."/>
+    </div>
+    <div id="options" ng-controller="appCon">
+        <li class="all">商家分类：</li>
+        <my-tabs><!--最外层指令-->
+            <my-pane title="全部商家" ng-click="$location.path('index')"></my-pane>
+            <my-pane title="快餐便当" ng-click="$location.path('bbb')"><!--内层指令-->
+                <ul ng-controller="myCtrl">
+                    <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
+                        ng-repeat="x in data1">
+                        {{x}}
+                    </li>
+                </ul>
+            </my-pane>
+            <my-pane title="特色菜系" ng-click="$location.path('ccc')"><!--内层指令-->
+                <ul ng-controller="myCtrl">
+                    <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
+                        ng-repeat="x in data2">
+                        {{x}}
+                    </li>
+                </ul>
+            </my-pane>
+            <my-pane title="异国料理"><!--内层指令-->
+                <ul ng-controller="myCtrl">
+                    <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
+                        ng-repeat="x in data3">
+                        {{x}}
+                    </li>
+                </ul>
+            </my-pane>
+            <my-pane title="小吃夜宵"><!--内层指令-->
+                <ul ng-controller="myCtrl">
+                    <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
+                        ng-repeat="x in data4">
+                        {{x}}
+                    </li>
+                </ul>
+            </my-pane>
+            <my-pane title="甜品饮品"><!--内层指令-->
+                <ul ng-controller="myCtrl">
+                    <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
+                        ng-repeat="x in data5">
+                        {{x}}
+                    </li>
+                </ul>
+            </my-pane>
+            <my-pane title="果蔬生鲜"><!--内层指令-->
+                <ul ng-controller="myCtrl">
+                    <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
+                        ng-repeat="x in data6">
+                        {{x}}
+                    </li>
+                </ul>
+            </my-pane>
+            <my-pane title="鲜花蛋糕"><!--内层指令-->
+                <ul ng-controller="myCtrl">
+                    <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
+                        ng-repeat="x in data7">
+                        {{x}}
+                    </li>
+                </ul>
+            </my-pane>
+            <my-pane title="商店超市"><!--内层指令-->
+                <ul ng-controller="myCtrl">
+                    <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
+                        ng-repeat="x in data8">
+                        {{x}}
+                    </li>
+                </ul>
+            </my-pane>
+        </my-tabs>
+        <ul id="content" ng-view>
+            <my-imgs>
+                <!--<my-img></my-img>-->
+            </my-imgs>
         </ul>
-        <ul class="contact">
-            <li class="download" ng-mouseenter="show3 = true" ng-mouseleave="show3 = false">
-                <a href="#"><img src="img/side5.gif" alt="下载"/></a>
-                <div class="downloadInfo" ng-show="show3"><img src="img/downloadInfo.gif" alt=""/></div>
-            </li>
-            <li class="service" ng-mouseenter="show4 = true" ng-mouseleave="show4 = false">
-                <a href="#"><img src="img/side6.gif" alt="在线客服"/></a>
-                <div class="indentInfo" ng-show="show4"><img src="img/serviceInfo.gif" alt=""/></div>
-            </li>
-        </ul>
+        <div id="footer">
+            <ul >
+
+                <li class="footeList">
+                    <ul>
+                        <li>用户帮助</li>
+                        <li>服务中心</li>
+                        <li>常见问题</li>
+                        <li>在线客服</li>
+                    </ul>
+                </li>
+                <li class="footeList">
+                    <ul>
+                        <li>商务合作</li>
+                        <li>我要开店</li>
+                        <li>加盟指南</li>
+                        <li>市场合作</li>
+                        <li>开放平台</li>
+                    </ul>
+                </li>
+                <li class="footeList">
+                    <ul>
+                        <li>关于我们</li>
+                        <li>饿了么介绍</li>
+                        <li>加入我们</li>
+                        <li>联系我们</li>
+                        <li>规则中心</li>
+                    </ul>
+                </li>
+                <li class="fontLink">
+                    <ul>
+                        <li>24小时客服热线 : 10105757</li>
+                        <li>意见反馈 : feedback@ele.me</li>
+                        <li class="wechat">关注我们 :</li>
+                    </ul>
+                </li>
+                <li class="fontLink">
+                    <div class="code">
+                        <p><strong>下载手机版</strong></p>
+                        <p>扫一扫,手机订餐方便</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="footerInfo">
+                <p>所有方：上海拉扎斯信息科技有限公司</p>
+                <p>增值电信业务许可证 : 沪B2-20150033 | 沪ICP备 09007032 | 上海工商行政管理 Copyright ©2008-2016 ele.me, All Rights Reserved.</p>
+            </div>
+        </div>
 
     </div>
+</div>
+<div id="side">
+    <ul class="info">
+        <li class="indent" ng-mouseenter="show1 = true" ng-mouseleave="show1 = false">
+            <a href="#"><img src="img/side1.gif" alt="订单"/></a>
+
+            <div class="indentInfo" ng-show="show1"><img src="img/indentInfo.gif" alt=""/></div>
+        </li>
+        <li class="line1"><a href="#"><img src="img/side2.gif"/></a></li>
+        <li class="cart"><a href="#"><img src="img/side3.gif" alt="购物车"/></a></li>
+        <li class="line2"><a href="#"><img src="img/side2.gif"/></a></li>
+        <li class="myInfo" ng-mouseenter="show2 = true" ng-mouseleave="show2 = false">
+            <a href="#"><img src="img/side4.gif" alt="用户信息"/></a>
+
+            <div class="indentInfo" ng-show="show2"><img src="img/myInfor.gif" alt=""/></div>
+        </li>
+    </ul>
+    <ul class="contact">
+        <li class="download" ng-mouseenter="show3 = true" ng-mouseleave="show3 = false">
+            <a href="#"><img src="img/side5.gif" alt="下载"/></a>
+
+            <div class="downloadInfo" ng-show="show3"><img src="img/downloadInfo.gif" alt=""/></div>
+        </li>
+        <li class="service" ng-mouseenter="show4 = true" ng-mouseleave="show4 = false">
+            <a href="#"><img src="img/side6.gif" alt="在线客服"/></a>
+
+            <div class="indentInfo" ng-show="show4"><img src="img/serviceInfo.gif" alt=""/></div>
+        </li>
+    </ul>
+
+</div>
 
 </body>
 </html>

@@ -1,31 +1,31 @@
-describe("", function() {
-  var rootEl;
-  beforeEach(function() {
-    rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-url-input-directive/index.html");
-  });
-  
-var text = element(by.binding('url.text'));
-var valid = element(by.binding('myForm.input.$valid'));
-var input = element(by.model('url.text'));
+describe("", function () {
+    var rootEl;
+    beforeEach(function () {
+        rootEl = browser.rootEl;
+        browser.get("build/docs/examples/example-url-input-directive/index.html");
+    });
 
-it('should initialize to model', function() {
-  expect(text.getText()).toContain('http://google.com');
-  expect(valid.getText()).toContain('true');
-});
+    var text = element(by.binding('url.text'));
+    var valid = element(by.binding('myForm.input.$valid'));
+    var input = element(by.model('url.text'));
 
-it('should be invalid if empty', function() {
-  input.clear();
-  input.sendKeys('');
+    it('should initialize to model', function () {
+        expect(text.getText()).toContain('http://google.com');
+        expect(valid.getText()).toContain('true');
+    });
 
-  expect(text.getText()).toEqual('text =');
-  expect(valid.getText()).toContain('false');
-});
+    it('should be invalid if empty', function () {
+        input.clear();
+        input.sendKeys('');
 
-it('should be invalid if not url', function() {
-  input.clear();
-  input.sendKeys('box');
+        expect(text.getText()).toEqual('text =');
+        expect(valid.getText()).toContain('false');
+    });
 
-  expect(valid.getText()).toContain('false');
-});
+    it('should be invalid if not url', function () {
+        input.clear();
+        input.sendKeys('box');
+
+        expect(valid.getText()).toContain('false');
+    });
 });

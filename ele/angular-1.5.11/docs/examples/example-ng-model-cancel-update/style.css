@@ -1,6 +1,7 @@
 div {
-  display: table-cell;
+    display: table-cell;
 }
+
 div:nth-child(1) {
-  padding-right: 30px;
+    padding-right: 30px;
 }

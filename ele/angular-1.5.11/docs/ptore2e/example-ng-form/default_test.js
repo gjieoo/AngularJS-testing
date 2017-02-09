@@ -1,27 +1,27 @@
-describe("", function() {
-  var rootEl;
-  beforeEach(function() {
-    rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-ng-form/index.html");
-  });
-  
-it('should initialize to model', function() {
-  var userType = element(by.binding('userType'));
-  var valid = element(by.binding('myForm.input.$valid'));
+describe("", function () {
+    var rootEl;
+    beforeEach(function () {
+        rootEl = browser.rootEl;
+        browser.get("build/docs/examples/example-ng-form/index.html");
+    });
 
-  expect(userType.getText()).toContain('guest');
-  expect(valid.getText()).toContain('true');
-});
+    it('should initialize to model', function () {
+        var userType = element(by.binding('userType'));
+        var valid = element(by.binding('myForm.input.$valid'));
 
-it('should be invalid if empty', function() {
-  var userType = element(by.binding('userType'));
-  var valid = element(by.binding('myForm.input.$valid'));
-  var userInput = element(by.model('userType'));
+        expect(userType.getText()).toContain('guest');
+        expect(valid.getText()).toContain('true');
+    });
 
-  userInput.clear();
-  userInput.sendKeys('');
+    it('should be invalid if empty', function () {
+        var userType = element(by.binding('userType'));
+        var valid = element(by.binding('myForm.input.$valid'));
+        var userInput = element(by.model('userType'));
 
-  expect(userType.getText()).toEqual('userType =');
-  expect(valid.getText()).toContain('false');
-});
+        userInput.clear();
+        userInput.sendKeys('');
+
+        expect(userType.getText()).toEqual('userType =');
+        expect(valid.getText()).toContain('false');
+    });
 });

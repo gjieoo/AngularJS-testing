@@ -1,29 +1,28 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Example - example-ng-class-debug</title>
-  <link href="style.css" rel="stylesheet" type="text/css">
-  
+    <meta charset="UTF-8">
+    <title>Example - example-ng-class-debug</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 
-  <script src="../../../angular.js"></script>
-  
 
-  
+    <script src="../../../angular.js"></script>
+
+
 </head>
 <body ng-app="">
-  <p ng-class="{strike: deleted, bold: important, 'has-error': error}">Map Syntax Example</p>
+<p ng-class="{strike: deleted, bold: important, 'has-error': error}">Map Syntax Example</p>
 <label>
-   <input type="checkbox" ng-model="deleted">
-   deleted (apply "strike" class)
+    <input type="checkbox" ng-model="deleted">
+    deleted (apply "strike" class)
 </label><br>
 <label>
-   <input type="checkbox" ng-model="important">
-   important (apply "bold" class)
+    <input type="checkbox" ng-model="important">
+    important (apply "bold" class)
 </label><br>
 <label>
-   <input type="checkbox" ng-model="error">
-   error (apply "has-error" class)
+    <input type="checkbox" ng-model="error">
+    error (apply "has-error" class)
 </label>
 <hr>
 <p ng-class="style">Using String Syntax</p>

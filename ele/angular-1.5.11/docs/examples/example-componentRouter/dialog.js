@@ -1,12 +1,12 @@
-(function(angular) {
-  'use strict';
-angular.module('dialog', [])
+(function (angular) {
+    'use strict';
+    angular.module('dialog', [])
 
-.service('dialogService', DialogService);
+        .service('dialogService', DialogService);
 
-function DialogService($q) {
-  this.confirm = function(message) {
-    return $q.when(window.confirm(message || 'Is it OK?'));
-  };
-}
+    function DialogService($q) {
+        this.confirm = function (message) {
+            return $q.when(window.confirm(message || 'Is it OK?'));
+        };
+    }
 })(window.angular);

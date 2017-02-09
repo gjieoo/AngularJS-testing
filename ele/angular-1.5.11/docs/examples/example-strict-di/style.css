@@ -5,11 +5,13 @@ div[ng-controller] {
     border: 1px solid;
     padding: .5em;
 }
+
 div[ng-controller^=Good] {
     border-color: #d6e9c6;
     background-color: #dff0d8;
     color: #3c763d;
 }
+
 div[ng-controller^=Bad] {
     border-color: #ebccd1;
     background-color: #f2dede;

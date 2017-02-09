@@ -1,36 +1,36 @@
-describe("", function() {
-  var rootEl;
-  beforeEach(function() {
-    rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-ngController/index-jquery.html");
-  });
-  
-it('should check controller', function() {
-  var container = element(by.id('ctrl-exmpl'));
+describe("", function () {
+    var rootEl;
+    beforeEach(function () {
+        rootEl = browser.rootEl;
+        browser.get("build/docs/examples/example-ngController/index-jquery.html");
+    });
 
-  expect(container.element(by.model('name'))
-      .getAttribute('value')).toBe('John Smith');
+    it('should check controller', function () {
+        var container = element(by.id('ctrl-exmpl'));
 
-  var firstRepeat =
-      container.element(by.repeater('contact in contacts').row(0));
-  var secondRepeat =
-      container.element(by.repeater('contact in contacts').row(1));
+        expect(container.element(by.model('name'))
+            .getAttribute('value')).toBe('John Smith');
 
-  expect(firstRepeat.element(by.model('contact.value')).getAttribute('value'))
-      .toBe('408 555 1212');
-  expect(secondRepeat.element(by.model('contact.value')).getAttribute('value'))
-      .toBe('john.smith@example.org');
+        var firstRepeat =
+            container.element(by.repeater('contact in contacts').row(0));
+        var secondRepeat =
+            container.element(by.repeater('contact in contacts').row(1));
 
-  firstRepeat.element(by.buttonText('clear')).click();
+        expect(firstRepeat.element(by.model('contact.value')).getAttribute('value'))
+            .toBe('408 555 1212');
+        expect(secondRepeat.element(by.model('contact.value')).getAttribute('value'))
+            .toBe('john.smith@example.org');
 
-  expect(firstRepeat.element(by.model('contact.value')).getAttribute('value'))
-      .toBe('');
+        firstRepeat.element(by.buttonText('clear')).click();
 
-  container.element(by.buttonText('add')).click();
+        expect(firstRepeat.element(by.model('contact.value')).getAttribute('value'))
+            .toBe('');
 
-  expect(container.element(by.repeater('contact in contacts').row(2))
-      .element(by.model('contact.value'))
-      .getAttribute('value'))
-      .toBe('yourname@example.org');
-});
+        container.element(by.buttonText('add')).click();
+
+        expect(container.element(by.repeater('contact in contacts').row(2))
+            .element(by.model('contact.value'))
+            .getAttribute('value'))
+            .toBe('yourname@example.org');
+    });
 });

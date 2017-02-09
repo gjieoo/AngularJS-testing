@@ -1,17 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Example - example-filter-filter-production</title>
-  
+    <meta charset="UTF-8">
+    <title>Example - example-filter-filter-production</title>
 
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.10/angular.min.js"></script>
-  
 
-  
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.10/angular.min.js"></script>
+
+
 </head>
 <body ng-app="">
-  <div ng-init="friends = [{name:'John', phone:'555-1276'},
+<div ng-init="friends = [{name:'John', phone:'555-1276'},
                          {name:'Mary', phone:'800-BIG-MARY'},
                          {name:'Mike', phone:'555-4321'},
                          {name:'Adam', phone:'555-5678'},
@@ -20,11 +19,14 @@
 
 <label>Search: <input ng-model="searchText"></label>
 <table id="searchTextResults">
-  <tr><th>Name</th><th>Phone</th></tr>
-  <tr ng-repeat="friend in friends | filter:searchText">
-    <td>{{friend.name}}</td>
-    <td>{{friend.phone}}</td>
-  </tr>
+    <tr>
+        <th>Name</th>
+        <th>Phone</th>
+    </tr>
+    <tr ng-repeat="friend in friends | filter:searchText">
+        <td>{{friend.name}}</td>
+        <td>{{friend.phone}}</td>
+    </tr>
 </table>
 <hr>
 <label>Any: <input ng-model="search.$"></label> <br>
@@ -32,11 +34,14 @@
 <label>Phone only <input ng-model="search.phone"></label><br>
 <label>Equality <input type="checkbox" ng-model="strict"></label><br>
 <table id="searchObjResults">
-  <tr><th>Name</th><th>Phone</th></tr>
-  <tr ng-repeat="friendObj in friends | filter:search:strict">
-    <td>{{friendObj.name}}</td>
-    <td>{{friendObj.phone}}</td>
-  </tr>
+    <tr>
+        <th>Name</th>
+        <th>Phone</th>
+    </tr>
+    <tr ng-repeat="friendObj in friends | filter:search:strict">
+        <td>{{friendObj.name}}</td>
+        <td>{{friendObj.phone}}</td>
+    </tr>
 </table>
 </body>
 </html>

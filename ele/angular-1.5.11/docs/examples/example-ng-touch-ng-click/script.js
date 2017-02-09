@@ -1,4 +1,4 @@
-(function(angular) {
-  'use strict';
-angular.module('ngClickExample', ['ngTouch']);
+(function (angular) {
+    'use strict';
+    angular.module('ngClickExample', ['ngTouch']);
 })(window.angular);
