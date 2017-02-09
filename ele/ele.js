@@ -1,5 +1,21 @@
 var app=angular.module("myApp",['ngRoute'])
-    .controller("appCon",["$scope",function($scope){}])
+    .controller("appCon",["$scope","$rootScope","$http",'$location',function($scope,$rootScope,$http,$location){
+        $http.get('goods1.json').success(function(data){
+            $rootScope.goods=data;
+        });
+        $scope.$location=$location;
+    }])
+    .config(['$routeProvider',function($routeProvider){
+        $routeProvider.when('/index',{
+            templateUrl:"./directive/myImgs.html"
+        }).when('/bbb',{
+            templateUrl:"./directive/riceNoodles.html"
+        }).when('/ccc',{
+            templateUrl:"./directive/simpleMeals.html"
+        }).otherwise({
+            redirectTo:'/index'
+        });
+    }])
     .directive("myTabs", function () {
         return{
             restrict:"EA",
@@ -47,14 +63,8 @@ var app=angular.module("myApp",['ngRoute'])
             scope:{},
             replace:true,
             templateUrl:"./directive/myImgs.html",
-            controller:["$scope",'$http',function($scope,$http){
-                $http.get('goods1.json').success(function(data){
-                    $scope.goods=data;
-                    console.log($scope.goods[0].img);
-                });
-                //$scope.$location=$location;,'$location','$rootParams
-
-
+            //controller:["$scope",'$http','$location','$rootParams',function($scope,$http,$location,$rootParams){
+            controller:["$scope","$rootScope",function($scope,$rootScope){
                 //$scope.show=false;
                 //    $scope.showDetails=function(){
                 //        $scope.show=true;
@@ -65,19 +75,19 @@ var app=angular.module("myApp",['ngRoute'])
             }]
         }
     })
-    .directive("myImg", function () {
-        return{
-            restrict:'EA',
-            scope:{},
-            replace:true,
-            transclude: true,
-            require:'^myImgs',
-            templateUrl:"./directive/myImg.html",
-            link: function (scope, elemenet,attrs,myTabsController) {
-                myTabsController.addScope(scope);
-            }
-        }
-    })
+    //.directive("myImg", function () {
+    //    return{
+    //        restrict:'EA',
+    //        scope:{},
+    //        replace:true,
+    //        transclude: true,
+    //        require:'^myImgs',
+    //        templateUrl:"./directive/myImg.html",
+    //        link: function (scope, elemenet,attrs,myTabsController) {
+    //            myTabsController.addScope(scope);
+    //        }
+    //    }
+    //})
     //.controller('content', ['$scope', function ($scope) {
     //    $scope.show=false;
     //    $scope.showDetails=function(){

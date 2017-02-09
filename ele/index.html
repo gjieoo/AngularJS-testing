@@ -40,15 +40,15 @@
         <div id="options" ng-controller="appCon" >
             <li class="all">商家分类：</li>
             <my-tabs><!--最外层指令-->
-                <my-pane title="全部商家"></my-pane>
-                <my-pane title="快餐便当"><!--内层指令-->
+                <my-pane title="全部商家" ng-click="$location.path('index')"></my-pane>
+                <my-pane title="快餐便当" ng-click="$location.path('bbb')"><!--内层指令-->
                     <ul  ng-controller="myCtrl">
-                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data1">
+                        <li class="tab"  ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data1">
                             {{x}}
                         </li>
                     </ul>
                 </my-pane>
-                <my-pane title="特色菜系"><!--内层指令-->
+                <my-pane title="特色菜系" ng-click="$location.path('ccc')"><!--内层指令-->
                     <ul ng-controller="myCtrl">
                         <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)" ng-repeat="x in data2">
                             {{x}}
@@ -98,16 +98,10 @@
                     </ul>
                 </my-pane>
             </my-tabs>
-            <ul id="content">
-                <my-imgs>
-                    <my-img></my-img>
+            <ul id="content" ng-view>
+                <my-imgs >
+                    <!--<my-img></my-img>-->
                 </my-imgs>
-                <!--<li  ng-mouseenter="showDetails()" ng-mouseleave="hideDetails()">-->
-                    <!--<a href="#"><img src="img/包子1.gif" alt="包子"/></a>-->
-                    <!--<div class="baozi1" ng-show="show">-->
-                        <!--<img src="img/飞鸿肉夹馍.gif"/>-->
-                    <!--</div>-->
-                <!--</li>-->
             </ul>
         </div>
     </div>
