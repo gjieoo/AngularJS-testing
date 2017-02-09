@@ -1,11 +1,36 @@
-<div><strong>项目:</strong>{{message.subject}}</div>
-<div><strong>发送者:</strong>{{message.sender}}</div>
-<div><strong>日期:</strong>{{message.date}}</div>
-<div>
-    <strong>To:</strong>
-  <span ng-repeat="recipient in message.recipients">
-    {{recipient}}
-  </span>
-</div>
-<div>{{message.message}}</div>
-<a href="#/">回到列表</a>
+<!doctype html >
+<html ng-app="myapp">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index1</title>
+    <script src="../angular-1.5.11/angular.js"></script>
+    <script src="../angular-1.5.11/angular-route.js"></script>
+</head>
+<body>
+    <div ng-controller="myctrl">
+        <a href="" ng-click="$location.path('aaa')">首页</a>
+        <a href="" ng-click="$location.path('bbb')">订单</a>
+        <a href="" ng-click="$location.path('ccc')">购物车</a>
+        <div ng-view></div>
+    </div>
+
+    <script>
+        angular.module("myapp",['ngRoute']).controller("aaa",['$scope',function($scope){
+
+        }]).controller("myctrl",['$scope','$location',function($scope,$location){
+            $scope.$location=$location;
+        }])
+                .config(['$routeProvider',function($routeProvider){
+    $routeProvider.when('/aaa',{
+    template:"<p>123124</p>"
+    }).when('/bbb',{
+    template:"<p>11111</p>"
+    }).when('/ccc',{
+    template:"<p>22222</p>"
+    }).otherwise({
+    redirectTo:'/aaa'
+    });
+    }])
+    </script>
+</body>
+</html>
