@@ -20,13 +20,13 @@ a {
 }
 
 #wrap {
-    width: 1869px;
+    width: 1880px;
     float: left;
     font-family: PingFang SC, Lantinghei SC, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
 }
 
 #nav {
-    width: 1869px;
+    width: 1880px;
     height: 60px;
     background: #1e89e0;
 }
@@ -163,7 +163,7 @@ a {
     height: 58px;
     border: 1px solid #e6e6e6;
     border-top-width: 2px;
-    border-bottom-width: 0px;
+    border-bottom-width: 0;
     margin: 0 auto;
     font-size: 13px;
 }
@@ -171,7 +171,7 @@ a {
 #options li, .table a {
     width: 80px;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
     float: left;
     color: #666;
     cursor: pointer;
@@ -180,7 +180,7 @@ a {
 }
 
 .tab {
-    height: 40px;
+    height: 30px;
     border-radius: 20px;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -188,14 +188,14 @@ a {
 
 .tab.hover {
     background: #0089dc;
-    border-radius: 20px;
+    border-radius: 10px;
     color: #fff !important;
 }
 
 #options .all {
     width: 80px;
     height: 60px;
-    line-height: 54px;
+    line-height: 44px;
     color: #999;
     padding-left: 22px;
     cursor: default;
@@ -232,11 +232,15 @@ a {
     margin: -10px 0 20px -1px;
     float: left;
 }
+.imgInfo {
 
-.baozi1 {
-    position: absolute;
+    position: absolute;          /*//只能满足第一个*/
     top: 2px;
     left: 260px;
+}
+.imgInfo img{
+    width:310px !important;
+    height:260px !important;
 }
 
 .good img {
@@ -298,12 +302,13 @@ a {
     color:#0e0e0e;
 }
 #side {
-    width: 34px;
+    width: 40px;
     height: 974px;
     background: #504d53;
     margin-bottom: 22px;
     position: fixed;
     right: 0;
+    overflow: hidden;
 }
 
 .info {

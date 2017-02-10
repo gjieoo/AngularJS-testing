@@ -2,160 +2,162 @@
   {
     "id": 10001,
     "name": "味千拉面（唐延路分店）",
-    "rank": 1,
+    "rank": 11,
     "info": "快餐便当",
     "specificallyInfo": "米粉面馆",
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 1239,
-    "img": "./img/riceNoodles1.gif"
+    "img": "./img/riceNoodles1.gif",
+    "imgInfo":"./img/riceNoodles1Info.gif"
   },
   {
     "id": 10002,
-    "name": "执念·粉",
-    "rank": 1,
-    "info": "快餐便当",
-    "specificallyInfo": "米粉面馆",
-    "deliverTime": 40,
+    "name": "贡茶（高新店）",
+    "rank": 5,
+    "info": "甜品饮品",
+    "specificallyInfo": "奶茶果汁",
+    "deliverTime": 45,
     "deliverCost": 4,
-    "salesVolume": 246,
-    "img": "./img/riceNoodles2.gif"
+    "salesVolume": 694,
+    "img": "./img/naicha.gif",
+    "imgInfo":"./img/naichaInfo.gif"
   },
   {
     "id": 10003,
-    "name": "李昌兰烫菜",
-    "rank": 1,
-    "info": "快餐便当",
-    "specificallyInfo": "米粉面馆",
-    "deliverTime": 49,
+    "name": "黎叔叔的店",
+    "rank": 8,
+    "info": "商店超市",
+    "specificallyInfo": "超市",
+    "deliverTime": 44,
     "deliverCost": 4,
-    "salesVolume": 3285,
-    "img": "./img/riceNoodles3.gif"
+    "salesVolume": 6,
+    "img": "./img/supermarkt.gif",
+    "imgInfo":"./img/supermarktInfo.gif"
   },
   {
     "id": 10004,
     "name": "重庆特色砂锅店",
-    "rank": 1,
+    "rank": 11,
     "info": "快餐便当",
     "specificallyInfo": "米粉面馆",
     "deliverTime": 42,
     "deliverCost": 4,
     "salesVolume": 884,
-    "img": "./img/riceNoodles4.gif"
+    "img": "./img/riceNoodles4.gif",
+    "imgInfo":"./img/riceNoodles4Info.gif"
   },
   {
     "id": 10005,
-    "name": "飞鸿肉夹馍",
-    "rank": 1,
-    "info": "快餐便当",
-    "specificallyInfo": "简餐",
-    "deliverTime": 39,
-    "deliverCost": 4,
-    "salesVolume": 212,
-    "img": "./img/simpleMeals1.gif"
-  },
-  {
-    "id": 10006,
     "name": "泰熙家（高新四路店）",
-    "rank": 1,
+    "rank": 12,
     "info": "快餐便当",
     "specificallyInfo": "简餐",
     "deliverTime": 42,
     "deliverCost": 4,
     "salesVolume": 410,
-    "img": "./img/simpleMeals2.gif"
+    "img": "./img/simpleMeals2.gif",
+    "imgInfo":"./img/simpleMeals2Info.gif"
+  },
+  {
+    "id": 10006,
+    "name": "李昌兰烫菜",
+    "rank": 11,
+    "info": "快餐便当",
+    "specificallyInfo": "米粉面馆",
+    "deliverTime": 49,
+    "deliverCost": 4,
+    "salesVolume": 3285,
+    "img": "./img/riceNoodles3.gif",
+    "imgInfo":"./img/riceNoodles3Info.gif"
   },
   {
     "id": 10007,
-    "name": "一汁餐饮",
-    "rank": 1,
-    "info": "快餐便当",
-    "specificallyInfo": "简餐",
-    "deliverTime": 38,
-    "deliverCost": 4,
-    "salesVolume": 78,
-    "img": "./img/simpleMeals3.gif"
-  },
-  {
-    "id": 10008,
     "name": "札卡小馆",
-    "rank": 1,
+    "rank": 12,
     "info": "快餐便当",
     "specificallyInfo": "简餐",
     "deliverTime": 43,
     "deliverCost": 4,
     "salesVolume": 10,
-    "img": "./img/simpleMeals4.gif"
+    "img": "./img/simpleMeals4.gif",
+    "imgInfo":"./img/simpleMeals4Info.gif"
   },
   {
-    "id": 10009,
+    "id": 10008,
     "name": "功福咖烤猪蹄",
-    "rank": 1,
+    "rank": 13,
     "info": "快餐便当",
     "specificallyInfo": "盖浇饭",
     "deliverTime": 40,
     "deliverCost": 4,
     "salesVolume": 387,
-    "img": "./img/gaijiao1.gif"
+    "img": "./img/gaijiao1.gif",
+    "imgInfo":"./img/gaijiao1Info.gif"
+  },
+  {
+    "id": 10009,
+    "name": "飞鸿肉夹馍",
+    "rank": 12,
+    "info": "快餐便当",
+    "specificallyInfo": "简餐",
+    "deliverTime": 39,
+    "deliverCost": 4,
+    "salesVolume": 212,
+    "img": "./img/simpleMeals1.gif",
+    "imgInfo":"./img/simpleMeals1Info.gif"
   },
   {
     "id": 10010,
-    "name": "方圆人家川菜馆",
-    "rank": 1,
-    "info": "快餐便当",
-    "specificallyInfo": "盖浇饭",
-    "deliverTime": 45,
-    "deliverCost": 6,
-    "salesVolume": 1883,
-    "img": "./img/gaijiao2.gif"
-  },
-  {
-    "id": 10011,
     "name": "重庆特色砂锅店",
-    "rank": 1,
+    "rank": 14,
     "info": "快餐便当",
     "specificallyInfo": "香锅砂锅",
     "deliverTime": 42,
     "deliverCost": 5,
     "salesVolume": 106,
-    "img": "./img/xiangguo1.gif"
+    "img": "./img/xiangguo1.gif",
+    "imgInfo":"./img/riceNoodles4Info.gif"
+  },
+  {
+    "id": 10011,
+    "name": "一汁餐饮",
+    "rank": 12,
+    "info": "快餐便当",
+    "specificallyInfo": "简餐",
+    "deliverTime": 38,
+    "deliverCost": 4,
+    "salesVolume": 78,
+    "img": "./img/simpleMeals3.gif",
+    "imgInfo":"./img/simpleMeals3Info.gif"
   },
   {
     "id": 10012,
     "name": "尚蟹俙肉蟹煲",
-    "rank": 1,
+    "rank": 14,
     "info": "快餐便当",
     "specificallyInfo": "香锅砂锅",
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 51,
-    "img": "./img/xiangguo2.gif"
+    "img": "./img/xiangguo2.gif",
+    "imgInfo":"./img/xiangguo2Info.gif"
   },
   {
     "id": 10013,
-    "name": "福满家冒菜香锅",
-    "rank": 1,
-    "info": "快餐便当",
-    "specificallyInfo": "麻辣烫",
-    "deliverTime": 37,
-    "deliverCost": 4,
-    "salesVolume": 296,
-    "img": "./img/malatang1.gif"
-  },
-  {
-    "id": 10014,
     "name": "盆派冒菜（大寨路店）",
-    "rank": 1,
+    "rank": 15,
     "info": "特色菜系",
     "specificallyInfo": "麻辣烫",
     "deliverTime": 34,
     "deliverCost":6,
     "salesVolume": 1140,
-    "img": "./img/malatang2.gif"
+    "img": "./img/malatang2.gif",
+    "imgInfo":"./img/malatang2Info.gif"
 
   },
   {
-    "id": 10015,
+    "id": 10014,
     "name": "天天美食（湖南蒸碗）",
     "rank": 2,
     "info": "特色菜系",
@@ -163,10 +165,11 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 2924,
-    "img": "./img/chuanxiang1.gif"
+    "img": "./img/chuanxiang1.gif",
+    "imgInfo":"./img/chuanxiang1.gif"
   },
   {
-    "id": 10016,
+    "id": 10015,
     "name": "成都平价川菜",
     "rank": 2,
     "info": "特色菜系",
@@ -174,7 +177,20 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 1961,
-    "img": "./img/chuanxiang2.gif"
+    "img": "./img/chuanxiang2.gif",
+    "imgInfo":"./img/chuanxiang2Info.gif"
+  },
+  {
+    "id": 10016,
+    "name": "方圆人家川菜馆",
+    "rank": 13,
+    "info": "快餐便当",
+    "specificallyInfo": "盖浇饭",
+    "deliverTime": 45,
+    "deliverCost": 6,
+    "salesVolume": 1883,
+    "img": "./img/gaijiao2.gif",
+    "imgInfo":"./img/gaijiao2Info.gif"
   },
   {
     "id": 10017,
@@ -185,18 +201,20 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 1112,
-    "img": "./img/otherFood1.gif"
+    "img": "./img/otherFood1.gif",
+    "imgInfo":"./img/otherFood1Info.gif"
   },
   {
     "id": 10018,
-    "name": "小家庭湖南土菜馆",
-    "rank": 2,
-    "info": "特色菜系",
-    "specificallyInfo": "其他菜系",
-    "deliverTime":37,
-    "deliverCost": 9,
-    "salesVolume": 2306,
-    "img": "./img/otherFood2.gif"
+    "name": "福满家冒菜香锅",
+    "rank": 15,
+    "info": "快餐便当",
+    "specificallyInfo": "麻辣烫",
+    "deliverTime": 37,
+    "deliverCost": 4,
+    "salesVolume": 296,
+    "img": "./img/malatang1.gif",
+    "imgInfo":"./img/malatang1Info.gif"
   },
   {
     "id": 10019,
@@ -207,7 +225,8 @@
     "deliverTime": 45,
     "deliverCost": 5.5,
     "salesVolume": 466,
-    "img": "./img/westernFood1.gif"
+    "img": "./img/westernFood1.gif",
+    "imgInfo":"./img/westernFood1Info.gif"
   },
   {
     "id": 10020,
@@ -218,21 +237,11 @@
     "deliverTime":45,
     "deliverCost": 4,
     "salesVolume": 60,
-    "img": "./img/westernFood2.gif"
+    "img": "./img/westernFood2.gif",
+    "imgInfo":"./img/westernFood2.gif"
   },
   {
     "id": 10021,
-    "name": "孟记蟹塘（高新店）",
-    "rank": 2,
-    "info": "特色菜系",
-    "specificallyInfo": "海鲜",
-    "deliverTime": 40,
-    "deliverCost": 4,
-    "salesVolume": 0,
-    "img": "./img/seafood1.gif"
-  },
-  {
-    "id": 10022,
     "name": "虾友记赵先生小龙虾",
     "rank": 2,
     "info": "特色菜系",
@@ -240,10 +249,11 @@
     "deliverTime": 37,
     "deliverCost": 31,
     "salesVolume": 10,
-    "img": "./img/seafood2.gif"
+    "img": "./img/seafood2.gif",
+    "imgInfo":"./img/seafood2Info.gif"
   },
   {
-    "id": 10023,
+    "id": 10022,
     "name": "田野披萨（高新店）",
     "rank": 3,
     "info": "异国料理",
@@ -251,10 +261,11 @@
     "deliverTime": 40,
     "deliverCost": 4,
     "salesVolume": 939,
-    "img": "./img/pizza1.gif"
+    "img": "./img/pizza1.gif",
+    "imgInfo":"./img/pizza1Info.gif"
   },
   {
-    "id": 10024,
+    "id": 10023,
     "name": "花生壳披萨",
     "rank": 3,
     "info": "异国料理",
@@ -262,10 +273,11 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 600,
-    "img": "./img/pizza2.gif"
+    "img": "./img/pizza2.gif",
+    "imgInfo":"./img/pizza2.gif"
   },
   {
-    "id": 10025,
+    "id": 10024,
     "name": "味千拉面（唐延路分店）",
     "rank": 3,
     "info": "异国料理",
@@ -273,10 +285,11 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume":1343,
-    "img": "./img/japanese1.gif"
+    "img": "./img/japanese1.gif",
+    "imgInfo":"./img/japanese1Info.gif"
   },
   {
-    "id": 10026,
+    "id": 10025,
     "name": "韩香美食石锅拌饭",
     "rank": 3,
     "info": "异国料理",
@@ -284,18 +297,32 @@
     "deliverTime": 44,
     "deliverCost": 4,
     "salesVolume":261,
-    "img": "./img/japanese2.gif"
+    "img": "./img/japanese2.gif",
+    "imgInfo":"./img/japanese2Info.gif"
+  },
+  {
+    "id": 10026,
+    "name": "孟记蟹塘（高新店）",
+    "rank": 2,
+    "info": "特色菜系",
+    "specificallyInfo": "海鲜",
+    "deliverTime": 40,
+    "deliverCost": 4,
+    "salesVolume": 0,
+    "img": "./img/seafood1.gif",
+    "imgInfo":"./img/seafood1Info.gif"
   },
   {
     "id": 10027,
-    "name": "胡桃里",
-    "rank": 3,
-    "info": "异国料理",
-    "specificallyInfo": "西餐",
-    "deliverTime": 32,
-    "deliverCost": 4,
-    "salesVolume": 46,
-    "img": "./img/west1.gif"
+    "name": "yoyo私家口味虾",
+    "rank":4,
+    "info": "小吃夜宵",
+    "specificallyInfo": "小龙虾",
+    "deliverTime": 40,
+    "deliverCost": 5,
+    "salesVolume": 69,
+    "img": "./img/shrimp.gif",
+    "imgInfo":"./img/shrimpInfo.gif"
   },
   {
     "id": 10028,
@@ -306,21 +333,11 @@
     "deliverTime": 45,
     "deliverCost":4,
     "salesVolume": 146,
-    "img": "./img/west2.gif"
+    "img": "./img/west2.gif",
+    "imgInfo":"./img/west2Info.gif"
   },
   {
     "id": 10029,
-    "name": "陈麻婆豆腐",
-    "rank":4,
-    "info": "小吃夜宵",
-    "specificallyInfo": "地方小吃",
-    "deliverTime": 45,
-    "deliverCost": 4,
-    "salesVolume": 182,
-    "img": "./img/difang1.gif"
-  },
-  {
-    "id": 10030,
     "name": "继光香香鸡（卜蜂莲花）",
     "rank": 4,
     "info": "小吃夜宵",
@@ -328,21 +345,23 @@
     "deliverTime": 40,
     "deliverCost": 4,
     "salesVolume": 212,
-    "img": "./img/zhachuan.gif"
+    "img": "./img/zhachuan.gif",
+    "imgInfo":"./img/zhachuanInfo.gif"
+  },
+  {
+    "id": 10030,
+    "name": "胡桃里",
+    "rank": 3,
+    "info": "异国料理",
+    "specificallyInfo": "西餐",
+    "deliverTime": 32,
+    "deliverCost": 4,
+    "salesVolume": 46,
+    "img": "./img/west1.gif",
+    "imgInfo":"./img/west1Info.gif"
   },
   {
     "id": 10031,
-    "name": "yoyo私家口味虾",
-    "rank":4,
-    "info": "小吃夜宵",
-    "specificallyInfo": "小龙虾",
-    "deliverTime": 40,
-    "deliverCost": 5,
-    "salesVolume": 69,
-    "img": "./img/shrimp.gif"
-  },
-  {
-    "id": 10032,
     "name": "小竹签烤肉小海鲜",
     "rank": 4,
     "info": "小吃夜宵",
@@ -350,8 +369,20 @@
     "deliverTime": 40,
     "deliverCost": 25,
     "salesVolume": 238,
-    "img": "./img/barbecue.gif"
-  },
+    "img": "./img/barbecue.gif",
+    "imgInfo":"./img/barbecueInfo.gif"
+  }, {
+  "id": 10032,
+  "name": "星巴克咖啡",
+  "rank": 5,
+  "info": "甜品饮品",
+  "specificallyInfo": "咖啡",
+  "deliverTime": 30,
+  "deliverCost": 8,
+  "salesVolume": 678,
+  "img": "./img/coffee.gif",
+  "imgInfo":"./img/coffeeInfo.gif"
+},
   {
     "id": 10033,
     "name": "北京烤鸭",
@@ -361,7 +392,8 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 61,
-    "img": "./img/yabo.gif"
+    "img": "./img/yabo.gif",
+    "imgInfo":"./img/yaboInfo.gif"
   },
   {
     "id": 10034,
@@ -372,32 +404,23 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 610,
-    "img": "./img/sweet.gif"
+    "img": "./img/sweet.gif",
+    "imgInfo":"./img/sweetInfo.gif"
   },
   {
     "id": 10035,
-    "name": "贡茶（高新店）",
-    "rank": 5,
-    "info": "甜品饮品",
-    "specificallyInfo": "奶茶果汁",
+    "name": "陈麻婆豆腐",
+    "rank":4,
+    "info": "小吃夜宵",
+    "specificallyInfo": "地方小吃",
     "deliverTime": 45,
     "deliverCost": 4,
-    "salesVolume": 694,
-    "img": "./img/naicha.gif"
+    "salesVolume": 182,
+    "img": "./img/difang1.gif",
+    "imgInfo":"./img/difang1Info.gif"
   },
   {
     "id": 10036,
-    "name": "星巴克咖啡",
-    "rank": 5,
-    "info": "甜品饮品",
-    "specificallyInfo": "咖啡",
-    "deliverTime": 30,
-    "deliverCost": 8,
-    "salesVolume": 678,
-    "img": "./img/coffee.gif"
-  },
-  {
-    "id": 10037,
     "name": "梦洁果蔬店",
     "rank": 6,
     "info": "果蔬生鲜",
@@ -405,65 +428,11 @@
     "deliverTime": 45,
     "deliverCost": 8,
     "salesVolume": 160,
-    "img": "./img/fruit.gif"
+    "img": "./img/fruit.gif",
+    "imgInfo":"./img/fruitInfo.gif"
   },
   {
-    "id": 10039,
-    "name": "多美汁水果超市",
-    "rank": 6,
-    "info": "果蔬生鲜",
-    "specificallyInfo": "水果",
-    "deliverTime": 39,
-    "deliverCost": 3,
-    "salesVolume": 195,
-    "img": "./img/fruit1.gif"
-  },
-  {
-    "id": 10040,
-    "name": "花之舞鲜花店",
-    "rank": 7,
-    "info": "鲜花蛋糕",
-    "specificallyInfo": "鲜花",
-    "deliverTime": 44,
-    "deliverCost":0,
-    "salesVolume": 39,
-    "img": "./img/flower.gif"
-  },
-  {
-    "id": 10041,
-    "name": "诗宾那提蛋糕冰淇淋",
-    "rank": 7,
-    "info": "鲜花蛋糕",
-    "specificallyInfo": "蛋糕",
-    "deliverTime": 45,
-    "deliverCost": 2,
-    "salesVolume": 125,
-    "img": "./img/cake.gif"
-  },
-  {
-    "id": 10042,
-    "name": "伯爵工房",
-    "rank":7,
-    "info": "鲜花蛋糕",
-    "specificallyInfo": "面包",
-    "deliverTime": 25,
-    "deliverCost": 9,
-    "salesVolume": 11,
-    "img": "./img/bread.gif"
-  },
-  {
-    "id": 10043,
-    "name": "黎叔叔的店",
-    "rank": 8,
-    "info": "商店超市",
-    "specificallyInfo": "超市",
-    "deliverTime": 44,
-    "deliverCost": 4,
-    "salesVolume": 6,
-    "img": "./img/supermarkt.gif"
-  },
-  {
-    "id": 10044,
+    "id": 10037,
     "name": "德国啤酒",
     "rank": 8,
     "info": "商店超市",
@@ -471,6 +440,78 @@
     "deliverTime": 43,
     "deliverCost": 0,
     "salesVolume": 32,
-    "img": "./img/water.gif"
+    "img": "./img/water.gif",
+    "imgInfo":"./img/waterInfo.gif"
+  },
+  {
+    "id": 10038,
+    "name": "多美汁水果超市",
+    "rank": 6,
+    "info": "果蔬生鲜",
+    "specificallyInfo": "水果",
+    "deliverTime": 39,
+    "deliverCost": 3,
+    "salesVolume": 195,
+    "img": "./img/fruit1.gif",
+    "imgInfo":"./img/fruit1Info.gif"
+  },
+  {
+    "id": 10039,
+    "name": "花之舞鲜花店",
+    "rank": 7,
+    "info": "鲜花蛋糕",
+    "specificallyInfo": "鲜花",
+    "deliverTime": 44,
+    "deliverCost":0,
+    "salesVolume": 39,
+    "img": "./img/flower.gif",
+    "imgInfo":"./img/flowerInfo.gif"
+  },
+  {
+    "id": 10040,
+    "name": "伯爵工房",
+    "rank":7,
+    "info": "鲜花蛋糕",
+    "specificallyInfo": "面包",
+    "deliverTime": 25,
+    "deliverCost": 9,
+    "salesVolume": 11,
+    "img": "./img/bread.gif",
+    "imgInfo":"./img/breadInfo.gif"
+  },
+  {
+    "id": 10041,
+    "name": "执念·粉",
+    "rank": 11,
+    "info": "快餐便当",
+    "specificallyInfo": "米粉面馆",
+    "deliverTime": 40,
+    "deliverCost": 4,
+    "salesVolume": 246,
+    "img": "./img/riceNoodles2.gif",
+    "imgInfo":"./img/riceNoodles2Info.gif"
+  },{
+  "id": 10042,
+  "name": "小家庭湖南土菜馆",
+  "rank": 2,
+  "info": "特色菜系",
+  "specificallyInfo": "其他菜系",
+  "deliverTime":37,
+  "deliverCost": 9,
+  "salesVolume": 2306,
+  "img": "./img/otherFood2.gif",
+  "imgInfo":"./img/otherFood2Info.gif"
+},
+  {
+    "id": 10043,
+    "name": "诗宾那提蛋糕冰淇淋",
+    "rank": 7,
+    "info": "鲜花蛋糕",
+    "specificallyInfo": "蛋糕",
+    "deliverTime": 45,
+    "deliverCost": 2,
+    "salesVolume": 125,
+    "img": "./img/cake.gif",
+    "imgInfo":"./img/cakeInfo.gif"
   }
 ]

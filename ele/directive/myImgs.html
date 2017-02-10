@@ -1,8 +1,6 @@
-<!--<li class="good" ng-mouseenter='showDetails()' ng-mouseleave='hideDetails()'>-->
-<li class="good" ng-repeat="good in goods" }>
+<li class="good" ng-mouseenter='show = true' ng-mouseleave='show = false' ng-repeat="good in goods" }>
     <a href="#"><img src="{{good.img}}" alt='包子'/></a>
-    <!--<a href="#"><img src="./img/riceNoodles1.gif" alt='包子'/></a>-->
-    <!--<div class="baozi1" ng-show='show' width="300px" height="240px">-->
-    <!--<img src="{{goods[0].imgInfo}}"/>-->
-    <!--</div>-->
+    <div class="imgInfo" ng-show='show'>
+    <img src="{{good.imgInfo}}"/>
+    </div>
 </li>

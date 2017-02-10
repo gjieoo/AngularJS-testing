@@ -5,6 +5,7 @@ var app = angular.module("myApp", ['ngRoute'])
         });
         $scope.$location = $location;
     }])
+
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/index', {
             templateUrl: "./directive/myImgs.html"
@@ -57,7 +58,8 @@ var app = angular.module("myApp", ['ngRoute'])
         return {
             restrict: 'EA',
             scope: {
-                title: '@'
+                title: '@',
+                classfiy:'@'
             },
             transclude: true,
             require: '^myTabs',
@@ -75,30 +77,10 @@ var app = angular.module("myApp", ['ngRoute'])
             scope: {},
             replace: true,
             templateUrl: "./directive/myImgs.html",
-            controller: ["$scope", "$rootScope", function ($scope, $rootScope) {
-                //$scope.show=false;
-                //    $scope.showDetails=function(){
-                //        $scope.show=true;
-                //    };
-                //    $scope.hideDetails=function(){
-                //        $scope.show=false;
-                //    }
+            controller: ["$scope", function ($scope) {
             }]
         }
     })
-    //.directive("myImg", function () {
-    //    return{
-    //        restrict:'EA',
-    //        scope:{},
-    //        replace:true,
-    //        transclude: true,
-    //        require:'^myImgs',
-    //        templateUrl:"./directive/myImg.html",
-    //        link: function (scope, elemenet,attrs,myTabsController) {
-    //            myTabsController.addScope(scope);
-    //        }
-    //    }
-    //})
     .controller('myCtrl', ['$scope', function ($scope) {
         $scope.data1 = ['全部快餐便当', '米粉面馆', '简餐', '盖浇饭', '香锅砂锅', '麻辣烫'];
         $scope.data2 = ['全部特色菜系', '川湘菜', '其他菜系', '西北菜', '海鲜'];

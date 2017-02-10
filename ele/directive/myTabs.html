@@ -1,7 +1,9 @@
 <div class='table'>
     <ul>
         <li ng-repeat='pane in scopes'>
-            <a href='#' ng-click='select(pane)'>{{pane.title}}</a>
+            <a href='#{{pane.classfiy}}' ng-click="select(pane);">
+            {{pane.title}}
+            </a>
         </li>
     </ul>
     <div ng-transclude></div>
