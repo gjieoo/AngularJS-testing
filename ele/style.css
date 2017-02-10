@@ -207,7 +207,6 @@ a {
 
 #content {
     width: 1180px;
-    height: 800px;
     border: 1px solid #e6e6e6;
     margin: 20px auto 0;
     position: relative;
@@ -247,7 +246,7 @@ a {
 #footer {
     width:auto;
     height: 350px;
-    margin:50px auto 0px;
+    margin:50px auto 0;
     border-top:1px solid #eee;
 }
 #footer li{
@@ -280,14 +279,24 @@ a {
     background: url("./img/footer.gif") no-repeat left -18px;
 }
 .wechat{
-    background: url("./img/footer.gif") no-repeat 68px 0px;
+    background: url("./img/footer.gif") no-repeat 68px 0;
 }
 .footerInfo{
+    padding-top:74px;
     clear:both;
-    height:80px;
-    margin:74px auto 0;////////////////////?????????????????????????????????????????????????
 }
-
+.footerInfo p:nth-child(2){
+    color:#999;
+    line-height:30px;
+    padding-bottom:40px;
+    background: url("./img/img.gif") no-repeat 546px bottom;
+}
+.footerInfo p{
+    width:1180px;
+    height:30px;
+    text-align: center;
+    color:#0e0e0e;
+}
 #side {
     width: 34px;
     height: 974px;
