@@ -206,11 +206,11 @@ a {
 }
 
 #content {
-    width: 1180px;
+    width: 1434px;
+    height:auto;
     border: 1px solid #e6e6e6;
     margin: 20px auto 0;
-    position: relative;
-    overflow: hidden;
+    overflow:visible;
     clear: both;
 }
 
@@ -218,6 +218,7 @@ a {
     width: 250px;
     height: 140px;
     float: left;
+    position: relative;
     margin: 0 18px;
 }
 
@@ -232,26 +233,22 @@ a {
     margin: -10px 0 20px -1px;
     float: left;
 }
-.imgInfo {
-
-    position: absolute;          /*//只能满足第一个*/
-    top: 2px;
-    left: 260px;
-}
-.imgInfo img{
-    width:310px !important;
-    height:260px !important;
-}
-
 .good img {
-    width: 250px;
-    height: 140px;
+    width: auto;
+    height: auto;
+}
+.imgInfo {
+    position: absolute;          /*//只能满足第一个位置*/
+    top: 12px;
+    left: 246px;
+    z-index: 2;
 }
 #footer {
     width:auto;
     height: 350px;
     margin:50px auto 0;
     border-top:1px solid #eee;
+    clear:both;
 }
 #footer li{
     margin-right:150px;
@@ -308,7 +305,6 @@ a {
     margin-bottom: 22px;
     position: fixed;
     right: 0;
-    overflow: hidden;
 }
 
 .info {
