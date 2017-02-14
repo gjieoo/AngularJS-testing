@@ -1,46 +1,57 @@
-var app = angular.module("myApp", ['ngRoute','ui.router'])
+var app = angular.module("myApp", ['ui.router'])
     .controller("appCon", ["$scope", "$http", function ($scope, $http) {
         $http.get('goods1.json').success(function (data) {
             $scope.goods = data;
         });
         $scope.$broadcast('sendAllGoods', $scope.goods);
-        $scope.$on('sendParent', function (event, data) {
-            console.log(data);
-        });
-        $scope.aaa=function(){
-
-        }
     }])
-    .controller('myImgs',['$scope',function($scope){
+    .controller('myImgs', ['$scope', function ($scope) {
         $scope.$on('sendAllGoods', function (event, data) {
         });
         $scope.$on('sendlGoods', function (event, data) {
         });
 
     }])
-    .config(['$routeProvider', function ($routeProvider) {
-        $routeProvider.when('/index', {
-            templateUrl: "./directive/myImgs.html"
-        }).when('/fastFood', {
-            templateUrl: "./directive/fastFood.html"
-        }).when('/specialFood', {
-            templateUrl: "./directive/specialFood.html"
-        }).when('/foreignlandFood', {
-            templateUrl: "./directive/foreignlandFood.html"
-        }).when('/snackFood', {
-            templateUrl: "./directive/snackFood.html"
-        }).when('/sweetmeats', {
-            templateUrl: "./directive/sweetmeats.html"
-        }).when('/fruit', {
-            templateUrl: "./directive/fruit.html"
-        }).when('/cake', {
-            templateUrl: "./directive/cake.html"
-        }).when('/supermarket', {
-            templateUrl: "./directive/supermarket.html"
-        }).otherwise({
-            redirectTo: '/index'
-        });
-    }])
+    .config(function ($stateProvider, $urlRouterProvider) {
+        $urlRouterProvider.otherwise('/index');
+        $stateProvider
+            .state('index', {
+                url: '/index',
+                templateUrl: './directive/myImgs.html'
+            })
+            .state('fastFood', {
+                url: '/fastFood',
+                templateUrl: './directive/fastFood.html'
+            })
+            .state('specialFood', {
+                url: '/specialFood',
+                templateUrl: './directive/specialFood.html'
+            })
+            .state('foreignlandFood', {
+                url: '/foreignlandFood',
+                templateUrl: './directive/foreignlandFood.html'
+            })
+            .state('snackFood', {
+                url: '/snackFood',
+                templateUrl: './directive/snackFood.html'
+            })
+            .state('sweetmeats', {
+                url: '/sweetmeats',
+                templateUrl: './directive/sweetmeats.html'
+            })
+            .state('fruit', {
+                url: '/fruit',
+                templateUrl: './directive/fruit.html'
+            })
+            .state('cake', {
+                url: '/cake',
+                templateUrl: './directive/cake.html'
+            })
+            .state('supermarket', {
+                url: '/supermarket',
+                templateUrl: './directive/supermarket.html'
+            });
+    })
     .directive("myTabs", function () {
         return {
             restrict: "EA",
@@ -71,7 +82,7 @@ var app = angular.module("myApp", ['ngRoute','ui.router'])
             restrict: 'EA',
             scope: {
                 title: '@',
-                classfiy:'@'
+                classfiy: '@'
             },
             transclude: true,
             require: '^myTabs',
@@ -94,18 +105,18 @@ var app = angular.module("myApp", ['ngRoute','ui.router'])
         }
     })
     .controller('myCtrl', ['$scope', function ($scope) {
-        $scope.data=[['全部快餐便当', '米粉面馆', '简餐', '盖浇饭', '香锅砂锅', '麻辣烫'],
-        ['全部特色菜系', '川湘菜', '其他菜系', '西北菜', '海鲜'],
-        ['全部异国料理', '披萨意面', '日韩料理', '西餐'],
-        ['全部小吃夜宵', '地方小吃', '炸鸡炸串', '小龙虾', '烧烤', '鸭脖卤味'],
-        ['全部甜品饮品', '甜品', '奶茶果汁', '咖啡'],
-        ['全部果蔬生鲜', '水果'],
-        ['全部鲜花蛋糕', '鲜花', '蛋糕', '面包'],
-        ['全部商店超市', '超市', '水站']];
+        $scope.data = [['全部快餐便当', '米粉面馆', '简餐', '盖浇饭', '香锅砂锅', '麻辣烫'],
+            ['全部特色菜系', '川湘菜', '其他菜系', '西北菜', '海鲜'],
+            ['全部异国料理', '披萨意面', '日韩料理', '西餐'],
+            ['全部小吃夜宵', '地方小吃', '炸鸡炸串', '小龙虾', '烧烤', '鸭脖卤味'],
+            ['全部甜品饮品', '甜品', '奶茶果汁', '咖啡'],
+            ['全部果蔬生鲜', '水果'],
+            ['全部鲜花蛋糕', '鲜花', '蛋糕', '面包'],
+            ['全部商店超市', '超市', '水站']];
         $scope.isSelect = 0;
         $scope.selectMe = function ($index) {
             $scope.isSelect = $index;
             return $scope.isSelect;
         };
-        $scope.$emit('sendParent',$scope.isSelect)
+        //$scope.$emit('sendParent', $scope.isSelect)
     }]);

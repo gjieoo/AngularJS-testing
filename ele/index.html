@@ -40,11 +40,13 @@
         </div>
         <input type="text" value="搜索商家、美食..."/>
     </div>
+    <!--<div id="options" ng-controller="appCon">-->
+    <!--</div>-->
     <div id="options" ng-controller="appCon">
         <li class="all">商家分类：</li>
         <my-tabs>                                                                           <!--最外层指令-->
             <my-pane title="全部商家" classfiy="index"></my-pane>
-            <my-pane title="快餐便当" classfiy="fastFood" ng-click="aaa()">
+            <my-pane title="快餐便当" classfiy="fastFood">
             <ul ng-controller="myCtrl">
                     <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index);"
                         ng-repeat="x in data[0]">
@@ -109,8 +111,8 @@
                 </ul>
             </my-pane>
         </my-tabs>
-        <ul id="content" ng-view ng-controller="myImgs">
-            <my-imgs ng-click="click()">
+        <ul id="content" ui-view ng-controller="myImgs">
+            <my-imgs>
             </my-imgs>
         </ul>
         <div id="footer">
