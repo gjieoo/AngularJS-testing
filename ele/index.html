@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <script src="angular-1.5.11/angular.js" type="text/javascript"></script>
     <script src="angular-1.5.11/angular-route.js" type="text/javascript"></script>
+    <script src="angular-ui-router/release/angular-ui-router.js" type="text/javascript"></script>
     <script src="ele.js" type="text/javascript"></script>
     <link rel="stylesheet" href="style.css"/>
     <title>ele首页</title>
@@ -43,9 +44,9 @@
         <li class="all">商家分类：</li>
         <my-tabs>                                                                           <!--最外层指令-->
             <my-pane title="全部商家" classfiy="index"></my-pane>
-            <my-pane title="快餐便当" classfiy="fastFood">
+            <my-pane title="快餐便当" classfiy="fastFood" ng-click="aaa()">
             <ul ng-controller="myCtrl">
-                    <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index);menu($index)"
+                    <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index);"
                         ng-repeat="x in data[0]">
                         {{x}}
                     </li>
@@ -109,7 +110,7 @@
             </my-pane>
         </my-tabs>
         <ul id="content" ng-view ng-controller="myImgs">
-            <my-imgs class="left">
+            <my-imgs ng-click="click()">
             </my-imgs>
         </ul>
         <div id="footer">

@@ -1,15 +1,22 @@
-var app = angular.module("myApp", ['ngRoute'])
+var app = angular.module("myApp", ['ngRoute','ui.router'])
     .controller("appCon", ["$scope", "$http", function ($scope, $http) {
         $http.get('goods1.json').success(function (data) {
             $scope.goods = data;
         });
-        $scope.click=function(){
-            $scope.$broadcast('sendAllGoods', $scope.goods);
+        $scope.$broadcast('sendAllGoods', $scope.goods);
+        $scope.$on('sendParent', function (event, data) {
+            console.log(data);
+        });
+        $scope.aaa=function(){
+
         }
     }])
     .controller('myImgs',['$scope',function($scope){
         $scope.$on('sendAllGoods', function (event, data) {
         });
+        $scope.$on('sendlGoods', function (event, data) {
+        });
+
     }])
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/index', {
@@ -98,5 +105,7 @@ var app = angular.module("myApp", ['ngRoute'])
         $scope.isSelect = 0;
         $scope.selectMe = function ($index) {
             $scope.isSelect = $index;
+            return $scope.isSelect;
         };
-    }])
+        $scope.$emit('sendParent',$scope.isSelect)
+    }]);

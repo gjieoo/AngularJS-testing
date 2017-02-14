@@ -2,6 +2,7 @@
   {
     "id": 10001,
     "name": "味千拉面（唐延路分店）",
+    "rank":"11",
     "info": "快餐便当",
     "specificallyInfo": "米粉面馆",
     "deliverTime": 45,
@@ -13,6 +14,7 @@
   {
     "id": 10002,
     "name": "贡茶（高新店）",
+    "rank":"52",
     "info": "甜品饮品",
     "specificallyInfo": "奶茶果汁",
     "deliverTime": 45,
@@ -24,6 +26,7 @@
   {
     "id": 10003,
     "name": "黎叔叔的店",
+    "rank":"81",
     "info": "商店超市",
     "specificallyInfo": "超市",
     "deliverTime": 44,
@@ -35,6 +38,7 @@
   {
     "id": 10004,
     "name": "重庆特色砂锅店",
+    "rank":"11",
     "info": "快餐便当",
     "specificallyInfo": "米粉面馆",
     "deliverTime": 42,
@@ -46,6 +50,7 @@
   {
     "id": 10005,
     "name": "泰熙家（高新四路店）",
+    "rank":"12",
     "info": "快餐便当",
     "specificallyInfo": "简餐",
     "deliverTime": 42,
@@ -57,6 +62,7 @@
   {
     "id": 10006,
     "name": "李昌兰烫菜",
+    "rank":"11",
     "info": "快餐便当",
     "specificallyInfo": "米粉面馆",
     "deliverTime": 49,
@@ -68,6 +74,7 @@
   {
     "id": 10007,
     "name": "札卡小馆",
+    "rank":"12",
     "info": "快餐便当",
     "specificallyInfo": "简餐",
     "deliverTime": 43,
@@ -79,6 +86,7 @@
   {
     "id": 10008,
     "name": "功福咖烤猪蹄",
+    "rank":"13",
     "info": "快餐便当",
     "specificallyInfo": "盖浇饭",
     "deliverTime": 40,
@@ -90,6 +98,7 @@
   {
     "id": 10009,
     "name": "飞鸿肉夹馍",
+    "rank":"12",
     "info": "快餐便当",
     "specificallyInfo": "简餐",
     "deliverTime": 39,
@@ -101,6 +110,7 @@
   {
     "id": 10010,
     "name": "重庆特色砂锅店",
+    "rank":"14",
     "info": "快餐便当",
     "specificallyInfo": "香锅砂锅",
     "deliverTime": 42,
@@ -112,6 +122,7 @@
   {
     "id": 10011,
     "name": "一汁餐饮",
+    "rank":"12",
     "info": "快餐便当",
     "specificallyInfo": "简餐",
     "deliverTime": 38,
@@ -123,6 +134,7 @@
   {
     "id": 10012,
     "name": "尚蟹俙肉蟹煲",
+    "rank":"14",
     "info": "快餐便当",
     "specificallyInfo": "香锅砂锅",
     "deliverTime": 45,
@@ -134,7 +146,8 @@
   {
     "id": 10013,
     "name": "盆派冒菜（大寨路店）",
-    "info": "特色菜系",
+    "rank":"15",
+    "info": "快餐便当",
     "specificallyInfo": "麻辣烫",
     "deliverTime": 34,
     "deliverCost":6,
@@ -146,6 +159,7 @@
   {
     "id": 10014,
     "name": "天天美食（湖南蒸碗）",
+    "rank":"21",
     "info": "特色菜系",
     "specificallyInfo": "川湘菜",
     "deliverTime": 45,
@@ -157,6 +171,7 @@
   {
     "id": 10015,
     "name": "成都平价川菜",
+    "rank":"21",
     "info": "特色菜系",
     "specificallyInfo": "川湘菜",
     "deliverTime": 45,
@@ -168,6 +183,7 @@
   {
     "id": 10016,
     "name": "方圆人家川菜馆",
+    "rank":"13",
     "info": "快餐便当",
     "specificallyInfo": "盖浇饭",
     "deliverTime": 45,
@@ -179,6 +195,7 @@
   {
     "id": 10017,
     "name": "百姓厨房（高新店）",
+    "rank":"22",
     "info": "特色菜系",
     "specificallyInfo": "其他菜系",
     "deliverTime": 45,
@@ -190,6 +207,7 @@
   {
     "id": 10018,
     "name": "福满家冒菜香锅",
+    "rank":"15",
     "info": "快餐便当",
     "specificallyInfo": "麻辣烫",
     "deliverTime": 37,
@@ -201,6 +219,7 @@
   {
     "id": 10019,
     "name": "饭秀",
+    "rank":"23",
     "info": "特色菜系",
     "specificallyInfo": "西北菜",
     "deliverTime": 45,
@@ -212,6 +231,7 @@
   {
     "id": 10020,
     "name": "A-CUP",
+    "rank":"23",
     "info": "特色菜系",
     "specificallyInfo": "西北菜",
     "deliverTime":45,
@@ -223,6 +243,7 @@
   {
     "id": 10021,
     "name": "虾友记赵先生小龙虾",
+    "rank":"24",
     "info": "特色菜系",
     "specificallyInfo": "海鲜",
     "deliverTime": 37,
@@ -234,6 +255,7 @@
   {
     "id": 10022,
     "name": "田野披萨（高新店）",
+    "rank":"31",
     "info": "异国料理",
     "specificallyInfo": "披萨意面",
     "deliverTime": 40,
@@ -245,6 +267,7 @@
   {
     "id": 10023,
     "name": "花生壳披萨",
+    "rank":"31",
     "info": "异国料理",
     "specificallyInfo": "披萨意面",
     "deliverTime": 45,
@@ -256,6 +279,7 @@
   {
     "id": 10024,
     "name": "味千拉面（唐延路分店）",
+    "rank":"32",
     "info": "异国料理",
     "specificallyInfo": "日韩料理",
     "deliverTime": 45,
@@ -267,6 +291,7 @@
   {
     "id": 10025,
     "name": "韩香美食石锅拌饭",
+    "rank":"32",
     "info": "异国料理",
     "specificallyInfo": "日韩料理",
     "deliverTime": 44,
@@ -278,6 +303,7 @@
   {
     "id": 10026,
     "name": "孟记蟹塘（高新店）",
+    "rank":"24",
     "info": "特色菜系",
     "specificallyInfo": "海鲜",
     "deliverTime": 40,
@@ -289,6 +315,7 @@
   {
     "id": 10027,
     "name": "yoyo私家口味虾",
+    "rank":"43",
     "info": "小吃夜宵",
     "specificallyInfo": "小龙虾",
     "deliverTime": 40,
@@ -300,6 +327,7 @@
   {
     "id": 10028,
     "name": "Light-Cal轻卡",
+    "rank":"33",
     "info": "异国料理",
     "specificallyInfo": "西餐",
     "deliverTime": 45,
@@ -311,6 +339,7 @@
   {
     "id": 10029,
     "name": "继光香香鸡（卜蜂莲花）",
+    "rank":"42",
     "info": "小吃夜宵",
     "specificallyInfo": "炸鸡炸串",
     "deliverTime": 40,
@@ -322,6 +351,7 @@
   {
     "id": 10030,
     "name": "胡桃里",
+    "rank":"33",
     "info": "异国料理",
     "specificallyInfo": "西餐",
     "deliverTime": 32,
@@ -333,6 +363,7 @@
   {
     "id": 10031,
     "name": "小竹签烤肉小海鲜",
+    "rank":"44",
     "info": "小吃夜宵",
     "specificallyInfo": "烧烤",
     "deliverTime": 40,
@@ -343,6 +374,7 @@
   }, {
   "id": 10032,
   "name": "星巴克咖啡",
+  "rank":"53",
   "info": "甜品饮品",
   "specificallyInfo": "咖啡",
   "deliverTime": 30,
@@ -354,6 +386,7 @@
   {
     "id": 10033,
     "name": "北京烤鸭",
+    "rank":"45",
     "info": "小吃夜宵",
     "specificallyInfo": "鸭脖卤味",
     "deliverTime": 45,
@@ -365,6 +398,7 @@
   {
     "id": 10034,
     "name": "鲜芋仙（西市店）",
+    "rank":"51",
     "info": "甜品饮品",
     "specificallyInfo": "甜品",
     "deliverTime": 45,
@@ -376,6 +410,7 @@
   {
     "id": 10035,
     "name": "陈麻婆豆腐",
+    "rank":"41",
     "info": "小吃夜宵",
     "specificallyInfo": "地方小吃",
     "deliverTime": 45,
@@ -387,6 +422,7 @@
   {
     "id": 10036,
     "name": "梦洁果蔬店",
+    "rank":"61",
     "info": "果蔬生鲜",
     "specificallyInfo": "水果",
     "deliverTime": 45,
@@ -398,6 +434,7 @@
   {
     "id": 10037,
     "name": "德国啤酒",
+    "rank":"82",
     "info": "商店超市",
     "specificallyInfo": "水站",
     "deliverTime": 43,
@@ -409,6 +446,7 @@
   {
     "id": 10038,
     "name": "多美汁水果超市",
+    "rank":"61",
     "info": "果蔬生鲜",
     "specificallyInfo": "水果",
     "deliverTime": 39,
@@ -420,6 +458,7 @@
   {
     "id": 10039,
     "name": "花之舞鲜花店",
+    "rank":"71",
     "info": "鲜花蛋糕",
     "specificallyInfo": "鲜花",
     "deliverTime": 44,
@@ -431,6 +470,7 @@
   {
     "id": 10040,
     "name": "伯爵工房",
+    "rank":"73",
     "info": "鲜花蛋糕",
     "specificallyInfo": "面包",
     "deliverTime": 25,
@@ -442,6 +482,7 @@
   {
     "id": 10041,
     "name": "执念·粉",
+    "rank":"11",
     "info": "快餐便当",
     "specificallyInfo": "米粉面馆",
     "deliverTime": 40,
@@ -452,6 +493,7 @@
   },{
   "id": 10042,
   "name": "小家庭湖南土菜馆",
+  "rank":"22",
   "info": "特色菜系",
   "specificallyInfo": "其他菜系",
   "deliverTime":37,
@@ -463,6 +505,7 @@
   {
     "id": 10043,
     "name": "诗宾那提蛋糕冰淇淋",
+    "rank":"72",
     "info": "鲜花蛋糕",
     "specificallyInfo": "蛋糕",
     "deliverTime": 45,
