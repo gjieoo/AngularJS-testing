@@ -45,8 +45,8 @@
             <my-pane title="全部商家" classfiy="index"></my-pane>
             <my-pane title="快餐便当" classfiy="fastFood">
             <ul ng-controller="myCtrl">
-                    <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
-                        ng-repeat="x in data1">
+                    <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index);menu($index)"
+                        ng-repeat="x in data[0]">
                         {{x}}
                     </li>
                 </ul>
@@ -54,7 +54,7 @@
             <my-pane title="特色菜系" classfiy="specialFood" ng-click="$location.path('index')">            <!--内层指令-->
                 <ul ng-controller="myCtrl">
                     <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
-                        ng-repeat="x in data2">
+                        ng-repeat="x in data[1]">
                         {{x}}
                     </li>
                 </ul>
@@ -62,7 +62,7 @@
             <my-pane title="异国料理" classfiy="foreignlandFood" ng-click="$location.path('index')">         <!--内层指令-->
                 <ul ng-controller="myCtrl">
                     <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
-                        ng-repeat="x in data3">
+                        ng-repeat="x in data[2]">
                         {{x}}
                     </li>
                 </ul>
@@ -70,7 +70,7 @@
             <my-pane title="小吃夜宵" classfiy="snackFood" ng-click="$location.path('index')">                <!--内层指令-->
                 <ul ng-controller="myCtrl">
                     <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index);$location.path('foreignlandFood')"
-                        ng-repeat="x in data4">
+                        ng-repeat="x in data[3]">
                         {{x}}
                     </li>
                 </ul>
@@ -78,7 +78,7 @@
             <my-pane title="甜品饮品" classfiy="sweetmeats" ng-click="$location.path('index')">                <!--内层指令-->
                 <ul ng-controller="myCtrl">
                     <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
-                        ng-repeat="x in data5">
+                        ng-repeat="x in data[4]">
                         {{x}}
                     </li>
                 </ul>
@@ -86,7 +86,7 @@
             <my-pane title="果蔬生鲜" classfiy="fruit" ng-click="$location.path('index')">                        <!--内层指令-->
                 <ul ng-controller="myCtrl">
                     <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
-                        ng-repeat="x in data6">
+                        ng-repeat="x in data[5]">
                         {{x}}
                     </li>
                 </ul>
@@ -94,7 +94,7 @@
             <my-pane title="鲜花蛋糕" classfiy="cake" ng-click="$location.path('index')">                         <!--内层指令-->
                 <ul ng-controller="myCtrl">
                     <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
-                        ng-repeat="x in data7">
+                        ng-repeat="x in data[6]">
                         {{x}}
                     </li>
                 </ul>
@@ -102,15 +102,14 @@
             <my-pane title="商店超市" classfiy="supermarket" ng-click="$location.path('index')">                 <!--内层指令-->
                 <ul ng-controller="myCtrl">
                     <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
-                        ng-repeat="x in data8">
+                        ng-repeat="x in data[7]">
                         {{x}}
                     </li>
                 </ul>
             </my-pane>
         </my-tabs>
-        <ul id="content" ng-view>
-            <my-imgs>
-
+        <ul id="content" ng-view ng-controller="myImgs">
+            <my-imgs class="left">
             </my-imgs>
         </ul>
         <div id="footer">
@@ -161,7 +160,6 @@
                 <p>增值电信业务许可证 : 沪B2-20150033 | 沪ICP备 09007032 | 上海工商行政管理 Copyright ©2008-2016 ele.me, All Rights Reserved.</p>
             </div>
         </div>
-
     </div>
 </div>
 <div id="side">

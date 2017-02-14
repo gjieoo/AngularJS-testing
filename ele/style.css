@@ -159,7 +159,7 @@ a {
 }
 
 #options {
-    width: 1180px;
+    width:1180px;
     height: 58px;
     border: 1px solid #e6e6e6;
     border-top-width: 2px;
@@ -167,7 +167,6 @@ a {
     margin: 0 auto;
     font-size: 13px;
 }
-
 #options li, .table a {
     width: 80px;
     text-align: center;
@@ -206,11 +205,11 @@ a {
 }
 
 #content {
-    width: 1434px;
-    height:auto;
+    width: auto;
     border: 1px solid #e6e6e6;
     margin: 20px auto 0;
-    overflow:visible;
+    /*overflow-x:scroll;*/
+    overflow-y:hidden;
     clear: both;
 }
 
@@ -238,7 +237,7 @@ a {
     height: auto;
 }
 .imgInfo {
-    position: absolute;          /*//只能满足第一个位置*/
+    position: absolute;
     top: 12px;
     left: 246px;
     z-index: 2;

@@ -1,3 +1,6 @@
-<li class="good" ng-repeat="good in goods | filter:{info : '果蔬生鲜'}">
+<li class="good" ng-repeat="good in goods | filter:{info : '果蔬生鲜'}" ng-mouseenter='show = true' ng-mouseleave='show = false'>
     <a href="#"><img src="{{good.img}}" alt='{{good.specificallyInfo}}'/></a>
+    <div class="imgInfo" ng-show='show'>
+        <img src="{{good.imgInfo}}"/>
+    </div>
 </li>

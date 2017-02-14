@@ -1,11 +1,16 @@
 var app = angular.module("myApp", ['ngRoute'])
-    .controller("appCon", ["$scope", "$rootScope", "$http", '$location', function ($scope, $rootScope, $http, $location) {
+    .controller("appCon", ["$scope", "$http", function ($scope, $http) {
         $http.get('goods1.json').success(function (data) {
-            $rootScope.goods = data;
+            $scope.goods = data;
         });
-        $scope.$location = $location;
+        $scope.click=function(){
+            $scope.$broadcast('sendAllGoods', $scope.goods);
+        }
     }])
-
+    .controller('myImgs',['$scope',function($scope){
+        $scope.$on('sendAllGoods', function (event, data) {
+        });
+    }])
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when('/index', {
             templateUrl: "./directive/myImgs.html"
@@ -82,16 +87,16 @@ var app = angular.module("myApp", ['ngRoute'])
         }
     })
     .controller('myCtrl', ['$scope', function ($scope) {
-        $scope.data1 = ['全部快餐便当', '米粉面馆', '简餐', '盖浇饭', '香锅砂锅', '麻辣烫'];
-        $scope.data2 = ['全部特色菜系', '川湘菜', '其他菜系', '西北菜', '海鲜'];
-        $scope.data3 = ['全部异国料理', '披萨意面', '日韩料理', '西餐'];
-        $scope.data4 = ['全部小吃夜宵', '地方小吃', '炸鸡炸串', '小龙虾', '烧烤', '鸭脖卤味'];
-        $scope.data5 = ['全部甜品饮品', '甜品', '奶茶果汁', '咖啡'];
-        $scope.data6 = ['全部果蔬生鲜', '水果'];
-        $scope.data7 = ['全部鲜花蛋糕', '鲜花', '蛋糕', '面包'];
-        $scope.data8 = ['全部商店超市', '超市', '水站'];
+        $scope.data=[['全部快餐便当', '米粉面馆', '简餐', '盖浇饭', '香锅砂锅', '麻辣烫'],
+        ['全部特色菜系', '川湘菜', '其他菜系', '西北菜', '海鲜'],
+        ['全部异国料理', '披萨意面', '日韩料理', '西餐'],
+        ['全部小吃夜宵', '地方小吃', '炸鸡炸串', '小龙虾', '烧烤', '鸭脖卤味'],
+        ['全部甜品饮品', '甜品', '奶茶果汁', '咖啡'],
+        ['全部果蔬生鲜', '水果'],
+        ['全部鲜花蛋糕', '鲜花', '蛋糕', '面包'],
+        ['全部商店超市', '超市', '水站']];
         $scope.isSelect = 0;
         $scope.selectMe = function ($index) {
             $scope.isSelect = $index;
-        }
-    }]);
+        };
+    }])
