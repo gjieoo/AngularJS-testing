@@ -23,6 +23,10 @@ var app = angular.module("myApp", ['ui.router'])
                 url: '/fastFood',
                 templateUrl: './directive/fastFood.html'
             })
+            .state('fastFood.riceNoodles', {
+                url: '/riceNoodles',
+                templateUrl: './directive/riceNoodles.html'
+            })
             .state('specialFood', {
                 url: '/specialFood',
                 templateUrl: './directive/specialFood.html'
@@ -118,5 +122,4 @@ var app = angular.module("myApp", ['ui.router'])
             $scope.isSelect = $index;
             return $scope.isSelect;
         };
-        //$scope.$emit('sendParent', $scope.isSelect)
-    }]);
+    }])

@@ -1,4 +1,7 @@
 var myApp = angular.module("myApp", ["ui.router"]);
+myApp.controller("myctrl",function($scope){
+   $scope.classrooms=[{id:1,name:'haha'},{id:2,name:'hihi'}]
+});
 myApp.config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.when("", "/pageTab");
     $stateProvider

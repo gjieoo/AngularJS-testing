@@ -1,7 +1,7 @@
 <div class='table'>
     <ul>
         <li ng-repeat='pane in scopes'>
-            <a href='#{{pane.classfiy}}' ng-click="select(pane);">
+            <a ui-sref="{{pane.classfiy}}" ng-click="select(pane);">
             {{pane.title}}
             </a>
         </li>

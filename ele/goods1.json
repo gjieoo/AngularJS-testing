@@ -8,6 +8,7 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 1239,
+    "limit":"./img/limit1.gif",
     "img": "./img/riceNoodles1.gif",
     "imgInfo":"./img/riceNoodles1Info.gif"
   },
@@ -20,6 +21,7 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 694,
+    "limit":"./img/limit.gif",
     "img": "./img/naicha.gif",
     "imgInfo":"./img/naichaInfo.gif"
   },
@@ -32,6 +34,7 @@
     "deliverTime": 44,
     "deliverCost": 4,
     "salesVolume": 6,
+    "limit":"./img/limit.gif",
     "img": "./img/supermarkt.gif",
     "imgInfo":"./img/supermarktInfo.gif"
   },
@@ -44,6 +47,7 @@
     "deliverTime": 42,
     "deliverCost": 4,
     "salesVolume": 884,
+    "limit":"./img/limit1.gif",
     "img": "./img/riceNoodles4.gif",
     "imgInfo":"./img/riceNoodles4Info.gif"
   },
@@ -56,6 +60,7 @@
     "deliverTime": 42,
     "deliverCost": 4,
     "salesVolume": 410,
+    "limit":"./img/limit.gif",
     "img": "./img/simpleMeals2.gif",
     "imgInfo":"./img/simpleMeals2Info.gif"
   },
@@ -68,6 +73,7 @@
     "deliverTime": 49,
     "deliverCost": 4,
     "salesVolume": 3285,
+    "limit":"./img/limit.gif",
     "img": "./img/riceNoodles3.gif",
     "imgInfo":"./img/riceNoodles3Info.gif"
   },
@@ -80,6 +86,7 @@
     "deliverTime": 43,
     "deliverCost": 4,
     "salesVolume": 10,
+    "limit":"./img/limit1.gif",
     "img": "./img/simpleMeals4.gif",
     "imgInfo":"./img/simpleMeals4Info.gif"
   },
@@ -92,6 +99,7 @@
     "deliverTime": 40,
     "deliverCost": 4,
     "salesVolume": 387,
+    "limit":"./img/limit1.gif",
     "img": "./img/gaijiao1.gif",
     "imgInfo":"./img/gaijiao1Info.gif"
   },
@@ -104,6 +112,7 @@
     "deliverTime": 39,
     "deliverCost": 4,
     "salesVolume": 212,
+    "limit":"./img/limit1.gif",
     "img": "./img/simpleMeals1.gif",
     "imgInfo":"./img/simpleMeals1Info.gif"
   },
@@ -116,6 +125,7 @@
     "deliverTime": 42,
     "deliverCost": 5,
     "salesVolume": 106,
+    "limit":"./img/limit1.gif",
     "img": "./img/xiangguo1.gif",
     "imgInfo":"./img/riceNoodles4Info.gif"
   },
@@ -128,6 +138,7 @@
     "deliverTime": 38,
     "deliverCost": 4,
     "salesVolume": 78,
+    "limit":"./img/limit.gif",
     "img": "./img/simpleMeals3.gif",
     "imgInfo":"./img/simpleMeals3Info.gif"
   },
@@ -140,6 +151,7 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 51,
+    "limit":"./img/limit1.gif",
     "img": "./img/xiangguo2.gif",
     "imgInfo":"./img/xiangguo2Info.gif"
   },
@@ -152,6 +164,7 @@
     "deliverTime": 34,
     "deliverCost":6,
     "salesVolume": 1140,
+    "limit":"./img/limit.gif",
     "img": "./img/malatang2.gif",
     "imgInfo":"./img/malatang2Info.gif"
 
@@ -165,6 +178,7 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 2924,
+    "limit":"./img/limit1.gif",
     "img": "./img/chuanxiang1.gif",
     "imgInfo":"./img/chuanxiang1Info.gif"
   },
@@ -177,6 +191,7 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 1961,
+    "limit":"./img/limit.gif",
     "img": "./img/chuanxiang2.gif",
     "imgInfo":"./img/chuanxiang2Info.gif"
   },
@@ -189,6 +204,7 @@
     "deliverTime": 45,
     "deliverCost": 6,
     "salesVolume": 1883,
+    "limit":"./img/limit1.gif",
     "img": "./img/gaijiao2.gif",
     "imgInfo":"./img/gaijiao2Info.gif"
   },
@@ -201,6 +217,7 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 1112,
+    "limit":"./img/limit.gif",
     "img": "./img/otherFood1.gif",
     "imgInfo":"./img/otherFood1Info.gif"
   },
@@ -213,6 +230,7 @@
     "deliverTime": 37,
     "deliverCost": 4,
     "salesVolume": 296,
+    "limit":"./img/limit.gif",
     "img": "./img/malatang1.gif",
     "imgInfo":"./img/malatang1Info.gif"
   },
@@ -225,6 +243,7 @@
     "deliverTime": 45,
     "deliverCost": 5.5,
     "salesVolume": 466,
+    "limit":"./img/limit1.gif",
     "img": "./img/westernFood1.gif",
     "imgInfo":"./img/westernFood1Info.gif"
   },
@@ -237,6 +256,7 @@
     "deliverTime":45,
     "deliverCost": 4,
     "salesVolume": 60,
+    "limit":"./img/limit1.gif",
     "img": "./img/westernFood2.gif",
     "imgInfo":"./img/westernFood2.gif"
   },
@@ -249,6 +269,7 @@
     "deliverTime": 37,
     "deliverCost": 31,
     "salesVolume": 10,
+    "limit":"./img/limit.gif",
     "img": "./img/seafood2.gif",
     "imgInfo":"./img/seafood2Info.gif"
   },
@@ -261,6 +282,7 @@
     "deliverTime": 40,
     "deliverCost": 4,
     "salesVolume": 939,
+    "limit":"./img/limit.gif",
     "img": "./img/pizza1.gif",
     "imgInfo":"./img/pizza1Info.gif"
   },
@@ -273,6 +295,7 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 600,
+    "limit":"./img/limit1.gif",
     "img": "./img/pizza2.gif",
     "imgInfo":"./img/pizza2Info.gif"
   },
@@ -285,6 +308,7 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume":1343,
+    "limit":"./img/limit.gif",
     "img": "./img/japanese1.gif",
     "imgInfo":"./img/japanese1Info.gif"
   },
@@ -297,6 +321,7 @@
     "deliverTime": 44,
     "deliverCost": 4,
     "salesVolume":261,
+    "limit":"./img/limit.gif",
     "img": "./img/japanese2.gif",
     "imgInfo":"./img/japanese2Info.gif"
   },
@@ -309,6 +334,7 @@
     "deliverTime": 40,
     "deliverCost": 4,
     "salesVolume": 0,
+    "limit":"./img/limit.gif",
     "img": "./img/seafood1.gif",
     "imgInfo":"./img/seafood1Info.gif"
   },
@@ -317,6 +343,7 @@
     "name": "yoyo私家口味虾",
     "rank":"43",
     "info": "小吃夜宵",
+    "limit":"./img/limit1.gif",
     "specificallyInfo": "小龙虾",
     "deliverTime": 40,
     "deliverCost": 5,
@@ -326,6 +353,7 @@
   },
   {
     "id": 10028,
+    "limit":"./img/limit.gif",
     "name": "Light-Cal轻卡",
     "rank":"33",
     "info": "异国料理",
@@ -333,6 +361,7 @@
     "deliverTime": 45,
     "deliverCost":4,
     "salesVolume": 146,
+    "limit":"./img/limit.gif",
     "img": "./img/west2.gif",
     "imgInfo":"./img/west2Info.gif"
   },
@@ -345,6 +374,7 @@
     "deliverTime": 40,
     "deliverCost": 4,
     "salesVolume": 212,
+    "limit":"./img/limit.gif",
     "img": "./img/zhachuan.gif",
     "imgInfo":"./img/zhachuanInfo.gif"
   },
@@ -357,6 +387,7 @@
     "deliverTime": 32,
     "deliverCost": 4,
     "salesVolume": 46,
+    "limit":"./img/limit.gif",
     "img": "./img/west1.gif",
     "imgInfo":"./img/west1Info.gif"
   },
@@ -369,6 +400,7 @@
     "deliverTime": 40,
     "deliverCost": 25,
     "salesVolume": 238,
+    "limit":"./img/limit.gif",
     "img": "./img/barbecue.gif",
     "imgInfo":"./img/barbecueInfo.gif"
   }, {
@@ -380,6 +412,7 @@
   "deliverTime": 30,
   "deliverCost": 8,
   "salesVolume": 678,
+  "limit":"./img/limit1.gif",
   "img": "./img/coffee.gif",
   "imgInfo":"./img/coffeeInfo.gif"
 },
@@ -392,6 +425,7 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 61,
+    "limit":"./img/limit.gif",
     "img": "./img/yabo.gif",
     "imgInfo":"./img/yaboInfo.gif"
   },
@@ -404,6 +438,7 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 610,
+    "limit":"./img/limit.gif",
     "img": "./img/sweet.gif",
     "imgInfo":"./img/sweetInfo.gif"
   },
@@ -416,6 +451,7 @@
     "deliverTime": 45,
     "deliverCost": 4,
     "salesVolume": 182,
+    "limit":"./img/limit1.gif",
     "img": "./img/difang1.gif",
     "imgInfo":"./img/difang1Info.gif"
   },
@@ -428,6 +464,7 @@
     "deliverTime": 45,
     "deliverCost": 8,
     "salesVolume": 160,
+    "limit":"./img/limit1.gif",
     "img": "./img/fruit.gif",
     "imgInfo":"./img/fruitInfo.gif"
   },
@@ -440,6 +477,7 @@
     "deliverTime": 43,
     "deliverCost": 0,
     "salesVolume": 32,
+    "limit":"./img/limit1.gif",
     "img": "./img/water.gif",
     "imgInfo":"./img/waterInfo.gif"
   },
@@ -452,6 +490,7 @@
     "deliverTime": 39,
     "deliverCost": 3,
     "salesVolume": 195,
+    "limit":"./img/limit.gif",
     "img": "./img/fruit1.gif",
     "imgInfo":"./img/fruit1Info.gif"
   },
@@ -464,6 +503,7 @@
     "deliverTime": 44,
     "deliverCost":0,
     "salesVolume": 39,
+    "limit":"./img/limit1.gif",
     "img": "./img/flower.gif",
     "imgInfo":"./img/flowerInfo.gif"
   },
@@ -476,6 +516,7 @@
     "deliverTime": 25,
     "deliverCost": 9,
     "salesVolume": 11,
+    "limit":"./img/limit1.gif",
     "img": "./img/bread.gif",
     "imgInfo":"./img/breadInfo.gif"
   },
@@ -488,6 +529,7 @@
     "deliverTime": 40,
     "deliverCost": 4,
     "salesVolume": 246,
+    "limit":"./img/limit.gif",
     "img": "./img/riceNoodles2.gif",
     "imgInfo":"./img/riceNoodles2Info.gif"
   },{
@@ -499,6 +541,7 @@
   "deliverTime":37,
   "deliverCost": 9,
   "salesVolume": 2306,
+  "limit":"./img/limit.gif",
   "img": "./img/otherFood2.gif",
   "imgInfo":"./img/otherFood2Info.gif"
 },
@@ -511,6 +554,7 @@
     "deliverTime": 45,
     "deliverCost": 2,
     "salesVolume": 125,
+    "limit":"./img/limit1.gif",
     "img": "./img/cake.gif",
     "imgInfo":"./img/cakeInfo.gif"
   }

@@ -48,8 +48,9 @@
             <my-pane title="全部商家" classfiy="index"></my-pane>
             <my-pane title="快餐便当" classfiy="fastFood">
             <ul ng-controller="myCtrl">
+
                     <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index);"
-                        ng-repeat="x in data[0]">
+                        ng-repeat="x in data[0]" ui-sref="fastFood.riceNoodles">
                         {{x}}
                     </li>
                 </ul>
