@@ -1,0 +1,32 @@
+<li class="good" ng-repeat="good in goods | filter:{specificallyInfo :'披萨意面'}" ng-mouseenter='show = true' ng-mouseleave='show = false'>
+    <div class="goodsContent">
+        <div class="goodsImg">
+            <img src="{{good.img}}" alt="{{good.info}}"/>
+            <p>{{good.deliverTime}}分钟</p>
+        </div>
+        <ul class="goodsList">
+            <li>{{good.name}}</li>
+            <li>月售{{good.salesVolume}}</li>
+            <li>配送费约{{good.deliverCost|currency:'￥':0}}</li>
+            <li>
+                <img src="{{good.limit}}"/>
+            </li>
+        </ul>
+    </div>
+    <div class="imgInfo" ng-show='show'>
+        <p class="goodName">{{good.name}}</p>
+        <div class="goodsInfoList">
+            <p><img src="./img/onTime.gif"/><span>准时必达，超时秒赔</span></p>
+            <p><img src="./img/assuring.gif"/><span>已加入“外卖保”计划，食品安全有保障</span></p>
+            <p><img src="./img/bill.gif"/><span>该商家支持开发票，请在下单时填写好发票抬头</span></p>
+        </div>
+        <div class="deliverInfo">
+            <span>配送费{{good.deliverCost|currency:'￥':0}}</span>
+            <span class="division">|</span>
+            <span >平均<strong class="deliverTime">{{good.deliverTime}}</strong>分钟送达</span>
+        </div>
+        <div class="mark">
+            <img src="./img/mark1.gif" alt=""/>
+        </div>
+    </div>
+</li>

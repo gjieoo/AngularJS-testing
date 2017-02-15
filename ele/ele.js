@@ -21,39 +21,134 @@ var app = angular.module("myApp", ['ui.router'])
             })
             .state('fastFood', {
                 url: '/fastFood',
-                templateUrl: './directive/fastFood.html'
+                templateUrl: 'fastFood/fastFood.html'
             })
-            .state('fastFood.riceNoodles', {
+            .state('riceNoodles', {
                 url: '/riceNoodles',
-                templateUrl: './directive/riceNoodles.html'
+                templateUrl: 'fastFood/riceNoodles.html'
+            })
+            .state('simpleMeals', {
+                url: '/simpleMeals',
+                templateUrl: 'fastFood/simpleMeals.html'
+            })
+            .state('riceBowl', {
+                url: '/riceBowl',
+                templateUrl: 'fastFood/riceBowl.html'
+            })
+            .state('incensePot', {
+                url: '/incensePot',
+                templateUrl: 'fastFood/incensePot.html'
+            })
+            .state('hotpot', {
+                url: '/hotpot',
+                templateUrl: 'fastFood/hotpot.html'
             })
             .state('specialFood', {
                 url: '/specialFood',
-                templateUrl: './directive/specialFood.html'
+                templateUrl: 'specialFood/specialFood.html'
+            })
+            .state('sichuanDish', {
+                url: '/sichuanDish',
+                templateUrl: 'specialFood/sichuanDish.html'
+            })
+            .state('otherFood', {
+                url: '/otherFood',
+                templateUrl: 'specialFood/otherFood.html'
+            })
+            .state('northwestFood', {
+                url: '/northwestFood',
+                templateUrl: 'specialFood/northwestFood.html'
+            })
+            .state('seaFood', {
+                url: '/seaFood',
+                templateUrl: 'specialFood/seaFood.html'
             })
             .state('foreignlandFood', {
                 url: '/foreignlandFood',
-                templateUrl: './directive/foreignlandFood.html'
+                templateUrl: 'foreignLandFood/foreignLandFood.html'
+            })
+            .state('pizza', {
+                url: '/pizza',
+                templateUrl: 'foreignLandFood/pizza.html'
+            })
+            .state('japaneseFood', {
+                url: '/japaneseFood',
+                templateUrl: 'foreignLandFood/japaneseFood.html'
+            })
+            .state('westFood', {
+                url: '/westFood',
+                templateUrl: 'foreignLandFood/westFood.html'
             })
             .state('snackFood', {
                 url: '/snackFood',
-                templateUrl: './directive/snackFood.html'
+                templateUrl: 'snackFood/snackFood.html'
+            })
+            .state('localFood', {
+                url: '/localFood',
+                templateUrl: 'snackFood/localFood.html'
+            })
+            .state('friedChicken', {
+                url: '/friedChicken',
+                templateUrl: 'snackFood/friedChicken.html'
+            }).state('cray', {
+                url: '/cray',
+                templateUrl: 'snackFood/cray.html'
+            })
+            .state('barbecue', {
+                url: '/barbecue',
+                templateUrl: 'snackFood/barbecue.html'
             })
             .state('sweetmeats', {
                 url: '/sweetmeats',
-                templateUrl: './directive/sweetmeats.html'
+                templateUrl: 'sweetmeats/sweetmeats.html'
+            })
+            .state('sweet', {
+                url: '/sweet',
+                templateUrl: 'sweetmeats/sweet.html'
+            })
+            .state('milkyTea', {
+                url: '/milkyTea',
+                templateUrl: 'sweetmeats/milkyTea.html'
+            })
+            .state('coffee', {
+                url: '/coffee',
+                templateUrl: 'sweetmeats/coffee.html'
             })
             .state('fruit', {
                 url: '/fruit',
-                templateUrl: './directive/fruit.html'
+                templateUrl: './fruit/fruit.html'
+            })
+            .state('fruitShop', {
+                url: '/fruitShop',
+                templateUrl: 'fruit/fruitShop.html'
             })
             .state('cake', {
                 url: '/cake',
-                templateUrl: './directive/cake.html'
+                templateUrl: 'cake/cake.html'
+            })
+            .state('flower', {
+                url: '/flower',
+                templateUrl: 'cake/flower.html'
+            })
+            .state('cakeShop', {
+                url: '/cakeShop',
+                templateUrl: 'cake/cakeShop.html'
+            })
+            .state('bread', {
+                url: '/bread',
+                templateUrl: 'cake/bread.html'
             })
             .state('supermarket', {
                 url: '/supermarket',
-                templateUrl: './directive/supermarket.html'
+                templateUrl: 'supermarket/supermarket.html'
+            })
+            .state('store', {
+                url: '/store',
+                templateUrl: 'supermarket/store.html'
+            })
+            .state('water', {
+                url: '/water',
+                templateUrl: 'supermarket/water.html'
             });
     })
     .directive("myTabs", function () {
@@ -97,29 +192,43 @@ var app = angular.module("myApp", ['ui.router'])
             }
         }
     })
-    .directive("myImgs", function () {
-        return {
-            restrict: "EA",
-            transclude: true,
-            scope: {},
-            replace: true,
-            templateUrl: "./directive/myImgs.html",
-            controller: ["$scope", function ($scope) {
-            }]
-        }
-    })
     .controller('myCtrl', ['$scope', function ($scope) {
-        $scope.data = [['全部快餐便当', '米粉面馆', '简餐', '盖浇饭', '香锅砂锅', '麻辣烫'],
-            ['全部特色菜系', '川湘菜', '其他菜系', '西北菜', '海鲜'],
-            ['全部异国料理', '披萨意面', '日韩料理', '西餐'],
-            ['全部小吃夜宵', '地方小吃', '炸鸡炸串', '小龙虾', '烧烤', '鸭脖卤味'],
-            ['全部甜品饮品', '甜品', '奶茶果汁', '咖啡'],
-            ['全部果蔬生鲜', '水果'],
-            ['全部鲜花蛋糕', '鲜花', '蛋糕', '面包'],
-            ['全部商店超市', '超市', '水站']];
+        $scope.data = [[{name: '全部快餐便当', specificallyInfo: 'fastFood'},
+            {name: '米粉面馆', specificallyInfo: 'riceNoodles'},
+            {name: '简餐', specificallyInfo: 'simpleMeals'},
+            {name: '盖浇饭', specificallyInfo: 'riceBowl'},
+            {name: '香锅砂锅', specificallyInfo: 'incensePot'},
+            {name: '麻辣烫', specificallyInfo: 'hotpot'}],
+            [{name: '全部特色菜系', specificallyInfo: 'specialFood'},
+                {name: '川湘菜', specificallyInfo: 'sichuanDish'},
+                {name: '其他菜系', specificallyInfo: 'otherFood'},
+                {name: '西北菜', specificallyInfo: 'northwestFood'},
+                {name: '海鲜', specificallyInfo: 'seaFood'}],
+            [{name: '全部异国料理', specificallyInfo: 'foreignlandFood'},
+                {name: '披萨意面', specificallyInfo: 'pizza'},
+                {name: '日韩料理', specificallyInfo: 'japaneseFood'},
+                {name: '西餐', specificallyInfo: 'westFood'}],
+            [{name: '全部小吃夜宵', specificallyInfo: 'snackFood'},
+                {name: '地方小吃', specificallyInfo: 'localFood'},
+                {name: '炸鸡炸串', specificallyInfo: 'friedChicken'},
+                {name: '小龙虾', specificallyInfo: 'cray'},
+                {name: '烧烤', specificallyInfo: 'barbecue'},
+                {name: '鸭脖卤味', specificallyInfo: 'duckNeck'}],
+            [{name: '全部甜品饮品', specificallyInfo: 'sweetmeats'},
+                {name: '甜品', specificallyInfo: 'sweet'},
+                {name: '奶茶果汁', specificallyInfo: 'milkyTea'},
+                {name: '咖啡', specificallyInfo: 'coffee'}],
+            [{name: '全部果蔬生鲜', specificallyInfo: 'fruit'},
+                {name: '水果', specificallyInfo: 'fruitShop'}],
+            [{name: '全部鲜花蛋糕', specificallyInfo: 'cake'},
+                {name: '鲜花', specificallyInfo: 'flower'},
+                {name: '蛋糕', specificallyInfo: 'cakeShop'},
+                {name: '面包', specificallyInfo: 'bread'}],
+            [{name: '全部商店超市', specificallyInfo: 'supermarket'},
+                {name: '超市', specificallyInfo: 'store'},
+                {name: '水站', specificallyInfo: 'water'}]];
         $scope.isSelect = 0;
         $scope.selectMe = function ($index) {
             $scope.isSelect = $index;
-            return $scope.isSelect;
         };
-    }])
+    }]);

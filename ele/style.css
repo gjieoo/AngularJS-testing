@@ -2,49 +2,40 @@
     padding: 0;
     margin: 0;
 }
-
 body {
     background: #f7f7f7;
     font-family: PingFang SC, Lantinghei SC, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
 }
-
 li {
     list-style: none;
 }
-
 img {
     border: none;
 }
-
 a {
     text-decoration: none;
 }
-
 #wrap {
     width: 1880px;
     float: left;
 }
-
 #nav {
     width: 1880px;
     height: 60px;
     background: #1e89e0;
 }
-
 .logo {
     width: 112px;
     height: 60px;
     margin: 0 20px 0 356px;
     float: left;
 }
-
 .nav-list {
     width: 380px;
     height: 60px;
     float: left;
     margin-right: 294px;
 }
-
 .nav-list li {
     width: 134px;
     height: 60px;
@@ -52,29 +43,24 @@ a {
     line-height: 60px;
     float: left;
 }
-
 .nav-list a {
     font-size: 15px;
     color: #e7faff;
     font-weight: bold;
 }
-
 .nav-list li:hover {
     background: #0c77d1;
 }
-
 .nav-list .active, .nav-list .active:hover {
     width: 112px;
     float: left;
     background: #0060c7;
 }
-
 .nav-link {
     width: 216px;
     height: 60px;
     float: left;
 }
-
 .nav-link li {
     float: left;
     height: 60px;
@@ -83,25 +69,20 @@ a {
     line-height: 60px;
     margin-right: 17px;
 }
-
 .nav-link .server {
     width: 94px;
     background: url("img/nav.gif") no-repeat left 0;
 }
-
 .server span {
     padding-left: 28px;
 }
-
 .phone span {
     padding-left: 24px;
 }
-
 .nav-link .phone {
     width: 88px;
     background: url("img/nav.gif") no-repeat left -60px;
 }
-
 .sign-logon {
     width: 102px;
     height: 60px;
@@ -110,14 +91,12 @@ a {
     margin-left: 64px;
     background: url("img/nav.gif") no-repeat left -120px;
 }
-
 .sign-logon span {
     font-size: 14px;
     color: #d4e8fc;
     font-weight: bold;
     padding-left: 30px;
 }
-
 #position {
     width: 1184px;
     height: 110px;
@@ -125,28 +104,23 @@ a {
     margin: 0 auto;
     background: url("img/girl.gif") no-repeat right 56px;
 }
-
 .location {
     float: left;
     margin-top: 22px;
 }
-
 .location i {
     font-style: normal;
     color: #999;
 }
-
 .location span {
     font-style: normal;
     color: #333;
 }
-
 .location strong {
     font-weight: normal;
     color: #0089dc;
     padding-left: 20px;
 }
-
 #position input {
     width: 284px;
     height: 32px;
@@ -157,7 +131,6 @@ a {
     border: 1px solid #ccc;
     background: url("img/search.gif") no-repeat 260px 9px;
 }
-
 #options {
     width:1180px;
     height: 58px;
@@ -176,20 +149,19 @@ a {
     cursor: pointer;
     padding: 2px;
 }
-
-.tab {
-    height: 30px;
-    border-radius: 20px;
+.tab a{
+    height: 26px;
+    border-radius: 8px;
     margin-right: 5px;
+    line-height:26px !important;
     margin-bottom: 5px;
 }
-
-.tab.hover {
+.tab.hover a{
     background: #0089dc;
-    border-radius: 10px;
+    border-radius: 8px;
+    line-height:26px !important;
     color: #fff !important;
 }
-
 #options .all {
     width: 80px;
     height: 60px;
@@ -198,11 +170,9 @@ a {
     padding-left: 22px;
     cursor: default;
 }
-
 #options .tab:first-child {
     margin-left: 90px;
 }
-
 #content {
     width: auto;
     border: 1px solid #e6e6e6;
@@ -210,7 +180,6 @@ a {
     overflow-y:hidden;
     clear: both;
 }
-
 #content .good {
     width: 250px;
     height: 138px;
@@ -218,10 +187,6 @@ a {
     position: relative;
     margin-left:38px;
 }
-
-/*#content li:nth-child(1), #content li:nth-child(2), #content li:nth-child(3), #content li:nth-child(4) {*/
-    /*margin-top: 21px;*/
-/*}*/
 .goodsContent{
    width:250px;
     height:138px;
@@ -413,7 +378,6 @@ a {
     position: fixed;
     right: 0;
 }
-
 .info {
     width: 34px;
     height: 166px;
@@ -421,34 +385,27 @@ a {
     position: relative;
     top: 265px;
 }
-
 .info .indent, .info .line1, .info .cart, .info .myInfo, .info .line2 {
     position: absolute;
     left: 9px;
 }
-
 .info .cart {
     top: 48px;
 }
-
 .info .myInfo {
     top: 152px;
 }
-
 .info .line1 {
     top: 20px;
 }
-
 .info .line2 {
     top: 120px;
 }
-
 .indentInfo {
     position: absolute;
     top: -5px;
     left: -92px;
 }
-
 .contact {
     width: 34px;
     height: 60px;
@@ -456,18 +413,15 @@ a {
     position: relative;
     top: 680px;
 }
-
 .contact .download {
     position: absolute;
     left: 10px;
 }
-
 .contact .service {
     position: absolute;
     top: 40px;
     left: 9px;
 }
-
 .contact .downloadInfo {
     position: absolute;
     top: -162px;
