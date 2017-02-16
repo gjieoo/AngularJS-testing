@@ -24,50 +24,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.8529415" vertical-offset="1897" max-vertical-offset="3375">
-              <caret line="157" column="30" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.6859504" vertical-offset="144" max-vertical-offset="1025">
+              <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
               <folding>
-                <element signature="n#my-tabs#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#my-tabs#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myTabs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/directive/myTabs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myPane.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/directive/myPane.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="175">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17626321" vertical-offset="600" max-vertical-offset="5200">
-              <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="2725">
+              <caret line="196" column="16" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="16" />
               <folding>
                 <element signature="e#2#36#0" expanded="false" />
                 <element signature="e#42#215#0" expanded="false" />
                 <element signature="e#219#244#0" expanded="false" />
                 <element signature="e#249#270#0" expanded="false" />
                 <element signature="e#273#303#0" expanded="false" />
-                <element signature="e#372#437#0" expanded="false" />
+                <element signature="e#310#366#0" expanded="false" />
                 <element signature="e#444#528#0" expanded="false" />
                 <element signature="e#539#620#0" expanded="false" />
                 <element signature="e#634#737#0" expanded="false" />
@@ -88,37 +72,57 @@
                 <element signature="e#2006#2050#0" expanded="false" />
                 <element signature="e#2068#2140#0" expanded="false" />
                 <element signature="e#2157#2375#0" expanded="false" />
-                <element signature="e#3564#3601#0" expanded="false" />
-                <element signature="e#3625#3667#0" expanded="false" />
-                <element signature="e#3695#3780#0" expanded="false" />
-                <element signature="e#3806#3960#0" expanded="false" />
-                <element signature="e#3985#4041#0" expanded="false" />
-                <element signature="e#4069#4305#0" expanded="false" />
-                <element signature="e#4345#4417#0" expanded="false" />
-                <element signature="e#4431#4450#0" expanded="false" />
-                <element signature="e#4461#4499#0" expanded="false" />
-                <element signature="e#4514#4578#0" expanded="false" />
-                <element signature="e#4595#4659#0" expanded="false" />
-                <element signature="e#4681#4742#0" expanded="false" />
-                <element signature="e#4755#4823#0" expanded="false" />
-                <element signature="e#4853#4878#0" expanded="false" />
-                <element signature="e#4909#4928#0" expanded="false" />
-                <element signature="e#4938#4967#0" expanded="false" />
-                <element signature="e#4980#5026#0" expanded="false" />
-                <element signature="e#5036#5230#0" expanded="false" />
-                <element signature="e#5240#5380#0" expanded="false" />
-                <element signature="e#5386#5458#0" expanded="false" />
-                <element signature="e#6699#6823#0" expanded="false" />
-                <element signature="e#6997#7039#0" expanded="false" />
-                <element signature="e#7052#7070#0" expanded="false" />
-                <element signature="e#7085#7104#0" expanded="false" />
-                <element signature="e#7118#7136#0" expanded="false" />
-                <element signature="e#7150#7169#0" expanded="false" />
-                <element signature="e#7182#7241#0" expanded="false" />
-                <element signature="e#7251#7346#0" expanded="false" />
-                <element signature="e#7366#7409#0" expanded="false" />
-                <element signature="e#7428#7485#0" expanded="false" />
-                <element signature="e#7509#7571#0" expanded="false" />
+                <element signature="e#2385#2464#0" expanded="false" />
+                <element signature="e#2501#2641#0" expanded="false" />
+                <element signature="e#2647#2771#0" expanded="false" />
+                <element signature="e#2781#2922#0" expanded="false" />
+                <element signature="e#2929#3054#0" expanded="false" />
+                <element signature="e#3067#3180#0" expanded="false" />
+                <element signature="e#3195#3334#0" expanded="false" />
+                <element signature="e#3361#3387#0" expanded="false" />
+                <element signature="e#3757#3842#0" expanded="false" />
+                <element signature="e#3868#4022#0" expanded="false" />
+                <element signature="e#4047#4103#0" expanded="false" />
+                <element signature="e#4131#4367#0" expanded="false" />
+                <element signature="e#4407#4479#0" expanded="false" />
+                <element signature="e#4493#4512#0" expanded="false" />
+                <element signature="e#4523#4561#0" expanded="false" />
+                <element signature="e#4576#4640#0" expanded="false" />
+                <element signature="e#4657#4721#0" expanded="false" />
+                <element signature="e#4743#4804#0" expanded="false" />
+                <element signature="e#4817#4885#0" expanded="false" />
+                <element signature="e#4915#4940#0" expanded="false" />
+                <element signature="e#4971#4990#0" expanded="false" />
+                <element signature="e#5000#5029#0" expanded="false" />
+                <element signature="e#5042#5088#0" expanded="false" />
+                <element signature="e#5098#5292#0" expanded="false" />
+                <element signature="e#5302#5442#0" expanded="false" />
+                <element signature="e#5448#5520#0" expanded="false" />
+                <element signature="e#5529#5673#0" expanded="false" />
+                <element signature="e#5692#5718#0" expanded="false" />
+                <element signature="e#5729#5772#0" expanded="false" />
+                <element signature="e#5794#5893#0" expanded="false" />
+                <element signature="e#5910#5935#0" expanded="false" />
+                <element signature="e#5956#6090#0" expanded="false" />
+                <element signature="e#6112#6131#0" expanded="false" />
+                <element signature="e#6137#6260#0" expanded="false" />
+                <element signature="e#6281#6340#0" expanded="false" />
+                <element signature="e#6348#6409#0" expanded="false" />
+                <element signature="e#6421#6485#0" expanded="false" />
+                <element signature="e#6512#6639#0" expanded="false" />
+                <element signature="e#6653#6754#0" expanded="false" />
+                <element signature="e#6761#6885#0" expanded="false" />
+                <element signature="e#6892#6988#0" expanded="false" />
+                <element signature="e#7059#7101#0" expanded="false" />
+                <element signature="e#7114#7132#0" expanded="false" />
+                <element signature="e#7147#7166#0" expanded="false" />
+                <element signature="e#7180#7198#0" expanded="false" />
+                <element signature="e#7212#7231#0" expanded="false" />
+                <element signature="e#7244#7303#0" expanded="false" />
+                <element signature="e#7313#7408#0" expanded="false" />
+                <element signature="e#7428#7471#0" expanded="false" />
+                <element signature="e#7490#7547#0" expanded="false" />
+                <element signature="e#7571#7633#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -183,33 +187,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myImgs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/directive/myImgs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="225">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="n#div#0;n#li#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#li#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/angular-ui-router/src/view.js" />
-        <option value="$PROJECT_DIR$/directive/subPane.html" />
-        <option value="$PROJECT_DIR$/test/page4.html" />
-        <option value="$PROJECT_DIR$/goods1.json" />
-        <option value="$PROJECT_DIR$/directive/myImgs.html" />
-        <option value="$PROJECT_DIR$/directive/cake.html" />
-        <option value="$PROJECT_DIR$/directive/fastFood.html" />
-        <option value="$PROJECT_DIR$/directive/foreignLandFood.html" />
-        <option value="$PROJECT_DIR$/directive/fruit.html" />
         <option value="$PROJECT_DIR$/directive/snackFood.html" />
         <option value="$PROJECT_DIR$/directive/specialFood.html" />
         <option value="$PROJECT_DIR$/directive/supermarket.html" />
@@ -224,34 +206,43 @@
         <option value="$PROJECT_DIR$/test/page3.html" />
         <option value="$PROJECT_DIR$/test/pageTab.html" />
         <option value="$PROJECT_DIR$/test/1.css" />
-        <option value="$PROJECT_DIR$/fastFood/simpleMeals.html" />
-        <option value="$PROJECT_DIR$/fastFood/riceBowl.html" />
-        <option value="$PROJECT_DIR$/fastFood/incensePot.html" />
+        <option value="$PROJECT_DIR$/foreignLandFood/westFood.html" />
+        <option value="$PROJECT_DIR$/ele.js" />
+        <option value="$PROJECT_DIR$/directive/myPane.html" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/directive/myImgs.html" />
+        <option value="$PROJECT_DIR$/cake/bread.html" />
+        <option value="$PROJECT_DIR$/cake/cake.html" />
+        <option value="$PROJECT_DIR$/cake/cakeShop.html" />
+        <option value="$PROJECT_DIR$/cake/flower.html" />
+        <option value="$PROJECT_DIR$/fastFood/fastFood.html" />
         <option value="$PROJECT_DIR$/fastFood/hotpot.html" />
-        <option value="$PROJECT_DIR$/specialFood/northwestFood.html" />
-        <option value="$PROJECT_DIR$/specialFood/otherFood.html" />
-        <option value="$PROJECT_DIR$/specialFood/sichuanDish.html" />
-        <option value="$PROJECT_DIR$/specialFood/seaFood.html" />
+        <option value="$PROJECT_DIR$/fastFood/incensePot.html" />
+        <option value="$PROJECT_DIR$/fastFood/riceBowl.html" />
+        <option value="$PROJECT_DIR$/fastFood/riceNoodles.html" />
+        <option value="$PROJECT_DIR$/fastFood/simpleMeals.html" />
+        <option value="$PROJECT_DIR$/foreignLandFood/foreignLandFood.html" />
         <option value="$PROJECT_DIR$/foreignLandFood/japaneseFood.html" />
         <option value="$PROJECT_DIR$/foreignLandFood/pizza.html" />
-        <option value="$PROJECT_DIR$/foreignLandFood/westFood.html" />
+        <option value="$PROJECT_DIR$/fruit/fruit.html" />
+        <option value="$PROJECT_DIR$/fruit/fruitShop.html" />
+        <option value="$PROJECT_DIR$/snackFood/barbecue.html" />
+        <option value="$PROJECT_DIR$/snackFood/cray.html" />
         <option value="$PROJECT_DIR$/snackFood/friedChicken.html" />
         <option value="$PROJECT_DIR$/snackFood/localFood.html" />
-        <option value="$PROJECT_DIR$/snackFood/cray.html" />
-        <option value="$PROJECT_DIR$/snackFood/barbecue.html" />
+        <option value="$PROJECT_DIR$/snackFood/snackFood.html" />
+        <option value="$PROJECT_DIR$/specialFood/northwestFood.html" />
+        <option value="$PROJECT_DIR$/specialFood/otherFood.html" />
+        <option value="$PROJECT_DIR$/specialFood/seaFood.html" />
+        <option value="$PROJECT_DIR$/specialFood/sichuanDish.html" />
+        <option value="$PROJECT_DIR$/supermarket/store.html" />
+        <option value="$PROJECT_DIR$/supermarket/supermarket.html" />
+        <option value="$PROJECT_DIR$/supermarket/water.html" />
+        <option value="$PROJECT_DIR$/sweetmeats/coffee.html" />
         <option value="$PROJECT_DIR$/sweetmeats/milkyTea.html" />
         <option value="$PROJECT_DIR$/sweetmeats/sweet.html" />
-        <option value="$PROJECT_DIR$/sweetmeats/coffee.html" />
-        <option value="$PROJECT_DIR$/fruit/fruitShop.html" />
-        <option value="$PROJECT_DIR$/cake/flower.html" />
-        <option value="$PROJECT_DIR$/cake/cakeShop.html" />
-        <option value="$PROJECT_DIR$/cake/bread.html" />
-        <option value="$PROJECT_DIR$/ele.js" />
-        <option value="$PROJECT_DIR$/supermarket/store.html" />
-        <option value="$PROJECT_DIR$/supermarket/water.html" />
-        <option value="$PROJECT_DIR$/directive/myPane.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/sweetmeats/sweetmeats.html" />
       </list>
     </option>
   </component>
@@ -302,20 +293,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ele" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ele" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ele" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directive" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -515,6 +492,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8333335" vertical-offset="0" max-vertical-offset="725">
           <caret line="7" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -546,245 +524,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cake/cake.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.087006964" vertical-offset="0" max-vertical-offset="862">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake/cakeShop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.087006964" vertical-offset="0" max-vertical-offset="862">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake/flower.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.087006964" vertical-offset="0" max-vertical-offset="862">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cake/bread.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02900232" vertical-offset="0" max-vertical-offset="862">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastFood/simpleMeals.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="225">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastFood/riceNoodles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="225">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastFood/riceBowl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="225">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastFood/incensePot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="225">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastFood/hotpot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="225">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fastFood/fastFood.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.087006964" vertical-offset="0" max-vertical-offset="862">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foreignLandFood/foreignLandFood.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="225">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foreignLandFood/japaneseFood.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="225">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foreignLandFood/pizza.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="225">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foreignLandFood/westFood.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.02900232" vertical-offset="0" max-vertical-offset="862">
           <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fruit/fruitShop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.087006964" vertical-offset="0" max-vertical-offset="862">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fruit/fruit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.087006964" vertical-offset="0" max-vertical-offset="862">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snackFood/snackFood.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="225">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snackFood/localFood.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="225">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snackFood/friedChicken.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="225">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snackFood/cray.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="225">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snackFood/barbecue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.087006964" vertical-offset="0" max-vertical-offset="862">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specialFood/northwestFood.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="225">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specialFood/otherFood.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="225">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specialFood/seaFood.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="225">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specialFood/sichuanDish.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="225">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specialFood/specialFood.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02900232" vertical-offset="0" max-vertical-offset="862">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supermarket/store.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="225">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supermarket/supermarket.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="225">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supermarket/water.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02900232" vertical-offset="0" max-vertical-offset="862">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sweetmeats/coffee.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="225">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sweetmeats/milkyTea.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="225">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sweetmeats/sweet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="225">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sweetmeats/sweetmeats.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05800464" vertical-offset="0" max-vertical-offset="862">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/directive/myImgs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2058823" vertical-offset="0" max-vertical-offset="225">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="n#div#0;n#li#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#li#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,6 +536,364 @@
         <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="175">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directive/myTabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directive/myImgs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.970589" vertical-offset="53" max-vertical-offset="950">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake/bread.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.235294" vertical-offset="78" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake/cake.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.235294" vertical-offset="78" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake/cakeShop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake/flower.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastFood/fastFood.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.441177" vertical-offset="3" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastFood/hotpot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastFood/incensePot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastFood/riceBowl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastFood/riceNoodles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fastFood/simpleMeals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foreignLandFood/foreignLandFood.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foreignLandFood/japaneseFood.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.441177" vertical-offset="3" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foreignLandFood/pizza.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.441177" vertical-offset="3" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fruit/fruit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fruit/fruitShop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snackFood/barbecue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snackFood/cray.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snackFood/friedChicken.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snackFood/localFood.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.235294" vertical-offset="78" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snackFood/snackFood.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specialFood/northwestFood.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.235294" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specialFood/otherFood.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.441177" vertical-offset="3" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specialFood/seaFood.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9409681" vertical-offset="3" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specialFood/sichuanDish.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9409681" vertical-offset="3" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specialFood/specialFood.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029515939" vertical-offset="0" max-vertical-offset="925">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermarket/store.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9409681" vertical-offset="3" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermarket/supermarket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.892562" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supermarket/water.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9409681" vertical-offset="3" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sweetmeats/coffee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9409681" vertical-offset="3" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sweetmeats/milkyTea.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9409681" vertical-offset="3" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sweetmeats/sweet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9409681" vertical-offset="3" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sweetmeats/sweetmeats.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.892562" vertical-offset="44" max-vertical-offset="950">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="2725">
+          <caret line="196" column="16" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="16" />
+          <folding>
+            <element signature="e#2#36#0" expanded="false" />
+            <element signature="e#42#215#0" expanded="false" />
+            <element signature="e#219#244#0" expanded="false" />
+            <element signature="e#249#270#0" expanded="false" />
+            <element signature="e#273#303#0" expanded="false" />
+            <element signature="e#310#366#0" expanded="false" />
+            <element signature="e#444#528#0" expanded="false" />
+            <element signature="e#539#620#0" expanded="false" />
+            <element signature="e#634#737#0" expanded="false" />
+            <element signature="e#750#817#0" expanded="false" />
+            <element signature="e#837#865#0" expanded="false" />
+            <element signature="e#909#972#0" expanded="false" />
+            <element signature="e#983#1039#0" expanded="false" />
+            <element signature="e#1053#1179#0" expanded="false" />
+            <element signature="e#1198#1271#0" expanded="false" />
+            <element signature="e#1285#1312#0" expanded="false" />
+            <element signature="e#1325#1352#0" expanded="false" />
+            <element signature="e#1370#1447#0" expanded="false" />
+            <element signature="e#1460#1620#0" expanded="false" />
+            <element signature="e#1638#1729#0" expanded="false" />
+            <element signature="e#1740#1880#0" expanded="false" />
+            <element signature="e#1891#1933#0" expanded="false" />
+            <element signature="e#1946#1990#0" expanded="false" />
+            <element signature="e#2006#2050#0" expanded="false" />
+            <element signature="e#2068#2140#0" expanded="false" />
+            <element signature="e#2157#2375#0" expanded="false" />
+            <element signature="e#2385#2464#0" expanded="false" />
+            <element signature="e#2501#2641#0" expanded="false" />
+            <element signature="e#2647#2771#0" expanded="false" />
+            <element signature="e#2781#2922#0" expanded="false" />
+            <element signature="e#2929#3054#0" expanded="false" />
+            <element signature="e#3067#3180#0" expanded="false" />
+            <element signature="e#3195#3334#0" expanded="false" />
+            <element signature="e#3361#3387#0" expanded="false" />
+            <element signature="e#3757#3842#0" expanded="false" />
+            <element signature="e#3868#4022#0" expanded="false" />
+            <element signature="e#4047#4103#0" expanded="false" />
+            <element signature="e#4131#4367#0" expanded="false" />
+            <element signature="e#4407#4479#0" expanded="false" />
+            <element signature="e#4493#4512#0" expanded="false" />
+            <element signature="e#4523#4561#0" expanded="false" />
+            <element signature="e#4576#4640#0" expanded="false" />
+            <element signature="e#4657#4721#0" expanded="false" />
+            <element signature="e#4743#4804#0" expanded="false" />
+            <element signature="e#4817#4885#0" expanded="false" />
+            <element signature="e#4915#4940#0" expanded="false" />
+            <element signature="e#4971#4990#0" expanded="false" />
+            <element signature="e#5000#5029#0" expanded="false" />
+            <element signature="e#5042#5088#0" expanded="false" />
+            <element signature="e#5098#5292#0" expanded="false" />
+            <element signature="e#5302#5442#0" expanded="false" />
+            <element signature="e#5448#5520#0" expanded="false" />
+            <element signature="e#5529#5673#0" expanded="false" />
+            <element signature="e#5692#5718#0" expanded="false" />
+            <element signature="e#5729#5772#0" expanded="false" />
+            <element signature="e#5794#5893#0" expanded="false" />
+            <element signature="e#5910#5935#0" expanded="false" />
+            <element signature="e#5956#6090#0" expanded="false" />
+            <element signature="e#6112#6131#0" expanded="false" />
+            <element signature="e#6137#6260#0" expanded="false" />
+            <element signature="e#6281#6340#0" expanded="false" />
+            <element signature="e#6348#6409#0" expanded="false" />
+            <element signature="e#6421#6485#0" expanded="false" />
+            <element signature="e#6512#6639#0" expanded="false" />
+            <element signature="e#6653#6754#0" expanded="false" />
+            <element signature="e#6761#6885#0" expanded="false" />
+            <element signature="e#6892#6988#0" expanded="false" />
+            <element signature="e#7059#7101#0" expanded="false" />
+            <element signature="e#7114#7132#0" expanded="false" />
+            <element signature="e#7147#7166#0" expanded="false" />
+            <element signature="e#7180#7198#0" expanded="false" />
+            <element signature="e#7212#7231#0" expanded="false" />
+            <element signature="e#7244#7303#0" expanded="false" />
+            <element signature="e#7313#7408#0" expanded="false" />
+            <element signature="e#7428#7471#0" expanded="false" />
+            <element signature="e#7490#7547#0" expanded="false" />
+            <element signature="e#7571#7633#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -853,86 +954,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directive/myTabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.8529415" vertical-offset="1897" max-vertical-offset="3375">
-          <caret line="157" column="30" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.6859504" vertical-offset="144" max-vertical-offset="1025">
+          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
           <folding>
-            <element signature="n#my-tabs#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17626321" vertical-offset="600" max-vertical-offset="5200">
-          <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
-          <folding>
-            <element signature="e#2#36#0" expanded="false" />
-            <element signature="e#42#215#0" expanded="false" />
-            <element signature="e#219#244#0" expanded="false" />
-            <element signature="e#249#270#0" expanded="false" />
-            <element signature="e#273#303#0" expanded="false" />
-            <element signature="e#372#437#0" expanded="false" />
-            <element signature="e#444#528#0" expanded="false" />
-            <element signature="e#539#620#0" expanded="false" />
-            <element signature="e#634#737#0" expanded="false" />
-            <element signature="e#750#817#0" expanded="false" />
-            <element signature="e#837#865#0" expanded="false" />
-            <element signature="e#909#972#0" expanded="false" />
-            <element signature="e#983#1039#0" expanded="false" />
-            <element signature="e#1053#1179#0" expanded="false" />
-            <element signature="e#1198#1271#0" expanded="false" />
-            <element signature="e#1285#1312#0" expanded="false" />
-            <element signature="e#1325#1352#0" expanded="false" />
-            <element signature="e#1370#1447#0" expanded="false" />
-            <element signature="e#1460#1620#0" expanded="false" />
-            <element signature="e#1638#1729#0" expanded="false" />
-            <element signature="e#1740#1880#0" expanded="false" />
-            <element signature="e#1891#1933#0" expanded="false" />
-            <element signature="e#1946#1990#0" expanded="false" />
-            <element signature="e#2006#2050#0" expanded="false" />
-            <element signature="e#2068#2140#0" expanded="false" />
-            <element signature="e#2157#2375#0" expanded="false" />
-            <element signature="e#3564#3601#0" expanded="false" />
-            <element signature="e#3625#3667#0" expanded="false" />
-            <element signature="e#3695#3780#0" expanded="false" />
-            <element signature="e#3806#3960#0" expanded="false" />
-            <element signature="e#3985#4041#0" expanded="false" />
-            <element signature="e#4069#4305#0" expanded="false" />
-            <element signature="e#4345#4417#0" expanded="false" />
-            <element signature="e#4431#4450#0" expanded="false" />
-            <element signature="e#4461#4499#0" expanded="false" />
-            <element signature="e#4514#4578#0" expanded="false" />
-            <element signature="e#4595#4659#0" expanded="false" />
-            <element signature="e#4681#4742#0" expanded="false" />
-            <element signature="e#4755#4823#0" expanded="false" />
-            <element signature="e#4853#4878#0" expanded="false" />
-            <element signature="e#4909#4928#0" expanded="false" />
-            <element signature="e#4938#4967#0" expanded="false" />
-            <element signature="e#4980#5026#0" expanded="false" />
-            <element signature="e#5036#5230#0" expanded="false" />
-            <element signature="e#5240#5380#0" expanded="false" />
-            <element signature="e#5386#5458#0" expanded="false" />
-            <element signature="e#6699#6823#0" expanded="false" />
-            <element signature="e#6997#7039#0" expanded="false" />
-            <element signature="e#7052#7070#0" expanded="false" />
-            <element signature="e#7085#7104#0" expanded="false" />
-            <element signature="e#7118#7136#0" expanded="false" />
-            <element signature="e#7150#7169#0" expanded="false" />
-            <element signature="e#7182#7241#0" expanded="false" />
-            <element signature="e#7251#7346#0" expanded="false" />
-            <element signature="e#7366#7409#0" expanded="false" />
-            <element signature="e#7428#7485#0" expanded="false" />
-            <element signature="e#7509#7571#0" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#my-tabs#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

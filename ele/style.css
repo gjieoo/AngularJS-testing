@@ -134,10 +134,7 @@ a {
 }
 #options {
     width:1180px;
-    height:58px;
-    border: 1px solid #e6e6e6;
-    border-top-width: 2px;
-    border-bottom-width: 0;
+    height:auto;
     margin: 0 auto;
     font-size: 13px;
 }
@@ -150,12 +147,19 @@ a {
     cursor: pointer;
     padding: 2px;
 }
+.menu{
+    width:1180px;
+    height:58px;
+    border: 1px solid #e6e6e6;
+    border-top-width: 2px;
+    border-bottom-width: 0;
+}
 .submenu {
     width: 1180px;
     height:auto;
     border:1px solid #e6e6e6;
     border-top-width: 0;
-    margin: -10px 0 20px -1px;
+    margin: -3px 0 20px -1px;
     float: left;
 }
 .tab a{
@@ -177,31 +181,30 @@ a {
     line-height: 44px;
     color: #999;
     padding-left: 22px;
+    float:left;
     cursor: default;
 }
 #options .tab:first-child {
     margin-left: 90px;
 }
 #content {
-    width: auto;
+    width: 1180px;
     height:auto;
     border: 1px solid #e6e6e6;
     margin: 20px auto 0;
-    clear: both;
+    clear:both;
 }
 #content .good {
     width: 250px;
     height: 138px;
     position: relative;
+    float:left;
     margin-left:38px;
 }
+.clearer {clear: left; line-height: 0; height: 0;}
 .goodsContent{
-   width:250px;
+    width:250px;
     height:138px;
-}
-.goodsContent .goodsImg{
-    width:70px;
-    position:relative;
 }
 .goodsContent .goodsImg img{
     width:70px;
