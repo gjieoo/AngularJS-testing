@@ -1,16 +1,11 @@
 var app = angular.module("myApp", ['ui.router'])
     .controller("appCon", ["$scope", "$http", function ($scope, $http) {
         $http.get('goods1.json').success(function (data) {
-            $scope.goods = data;
-        });
-        $scope.$broadcast('sendAllGoods', $scope.goods);
-    }])
-    .controller('myImgs', ['$scope', function ($scope) {
-        $scope.$on('sendAllGoods', function (event, data) {
-        });
-        $scope.$on('sendlGoods', function (event, data) {
+            $scope.goods = angular.fromJson(data);
         });
 
+    }])
+    .controller('myImgs', ['$scope', function ($scope) {
     }])
     .config(function ($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise('/index');
@@ -191,6 +186,47 @@ var app = angular.module("myApp", ['ui.router'])
                 myTabsController.addScope(scope);                    //把内层指令的scope存入到外层指令中，让外层遍历。
             }
         }
+    })
+    .directive("myImg", function () {
+        return {
+            restrict: "EA",
+            replace: true,
+            scope: {
+                goods: '='
+            },
+            templateUrl: "./directive/myImg.html"
+        }
+    })
+    .directive("imgInfo", function () {
+        return {
+            restrict: "EA",
+            replace: true,
+            scope: {
+                info: '='
+            },
+            templateUrl: "directive/imgInfo.html"
+        }
+    })
+    .directive('myStar', function () {
+        return {
+            restrict: 'E',
+            scope: {
+                star: '@'
+            },
+            templateUrl: './directive/myStar.html',
+            controller: function ($scope) {
+                var num = Number($scope.star);
+                var stars = [];
+                for (var i = 0; i < num; i++) {
+                    stars.push(true);
+                }
+                for (var j = 0; j < (5 - num); j++) {
+                    stars.push(false);
+                }
+                $scope.stars = stars;
+
+            }
+        };
     })
     .controller('myCtrl', ['$scope', function ($scope) {
         $scope.data = [[{name: '全部快餐便当', specificallyInfo: 'fastFood'},

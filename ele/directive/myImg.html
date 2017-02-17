@@ -1,0 +1,16 @@
+<div class="goodsContent">
+    <div class="goodsImg">
+        <img src={{goods.img}} alt="{{goods.info}}"/>
+
+        <p>{{goods.deliverTime}}分钟</p>
+    </div>
+    <ul class="goodsList">
+        <li>{{goods.name}}</li>
+        <li><span class="star"><my-star star="{{goods.star}}"></my-star></span>月售{{goods.salesVolume}}</li>
+        <li>配送费约{{goods.deliverCost|currency:'￥':0}}</li>
+        <li>
+            <img src={{goods.limit}}/>
+        </li>
+    </ul>
+</div>
+

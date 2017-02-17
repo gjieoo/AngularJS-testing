@@ -6,6 +6,7 @@
     <script src="angular-1.5.11/angular.js" type="text/javascript"></script>
     <script src="angular-1.5.11/angular-route.js" type="text/javascript"></script>
     <script src="angular-ui-router/release/angular-ui-router.js" type="text/javascript"></script>
+    <link href="./font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
     <script src="ele.js" type="text/javascript"></script>
     <link rel="stylesheet" href="style.css"/>
     <title>ele首页</title>
@@ -46,8 +47,8 @@
                 <my-pane title="全部商家" classfiy="index"></my-pane>
                 <my-pane title="快餐便当" classfiy="fastFood">
                     <ul ng-controller="myCtrl">
-                        <li ng-repeat="x in data[0]" class="tab" ng-click="selectMe($index)"
-                            ng-class="{hover:isSelect==$index}">
+                        <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)"
+                            ng-repeat="x in data[0]">
                             <a ui-sref="{{x.specificallyInfo}}">{{x.name}}</a>
                         </li>
                     </ul>
@@ -117,15 +118,12 @@
             </my-tabs>
         </div>
     </div>
-    <ul id="content" ui-view ng-controller="myImgs">
-        <my-imgs>
-        </my-imgs>
-    </ul>
+    <ul id="content" ui-view ng-controller="myImgs"></ul>
     <div id="footer">
         <ul>
             <li class="footeList footerOne">
                 <ul>
-                    <li>用户帮助</li>
+                    <li class="footerFirst">用户帮助</li>
                     <li>服务中心</li>
                     <li>常见问题</li>
                     <li>在线客服</li>
@@ -133,7 +131,7 @@
             </li>
             <li class="footeList">
                 <ul>
-                    <li>商务合作</li>
+                    <li class="footerFirst">商务合作</li>
                     <li>我要开店</li>
                     <li>加盟指南</li>
                     <li>市场合作</li>
@@ -142,7 +140,7 @@
             </li>
             <li class="footeList">
                 <ul>
-                    <li>关于我们</li>
+                    <li class="footerFirst">关于我们</li>
                     <li>饿了么介绍</li>
                     <li>加入我们</li>
                     <li>联系我们</li>

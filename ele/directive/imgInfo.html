@@ -1,0 +1,16 @@
+<div class="imgInfo">
+    <p class="goodName">{{info.name}}</p>
+    <div class="goodsInfoList">
+        <p><img src="./img/onTime.gif"/><span>准时必达，超时秒赔</span></p>
+        <p><img src="./img/assuring.gif"/><span>已加入“外卖保”计划，食品安全有保障</span></p>
+        <p><img src="./img/bill.gif"/><span>该商家支持开发票，请在下单时填写好发票抬头</span></p>
+    </div>
+    <div class="deliverInfo">
+        <span>配送费{{info.deliverCost|currency:'￥':0}}</span>
+        <span class="division">|</span>
+        <span>平均<strong class="deliverTime">{{info.deliverTime}}</strong>分钟送达</span>
+    </div>
+    <div class="mark">
+        <img src="./img/mark1.gif" alt=""/>
+    </div>
+</div>

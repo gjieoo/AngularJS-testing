@@ -5,7 +5,7 @@
 
 body {
     background: #f7f7f7;
-    font-family: PingFang SC, Lantinghei SC, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+    font-family: Microsoft Yahei;
 }
 
 li {
@@ -32,17 +32,19 @@ a {
     background: #1e89e0;
 }
 
+.logo, .nav-list, .nav-list li, .nav-list .active, .nav-list .active:hover, .nav-link, .nav-link li, .sign-logon {
+    float: left;
+}
+
 .logo {
     width: 112px;
     height: 60px;
     margin: 0 20px 0 356px;
-    float: left;
 }
 
 .nav-list {
     width: 380px;
     height: 60px;
-    float: left;
     margin-right: 294px;
 }
 
@@ -51,7 +53,6 @@ a {
     height: 60px;
     text-align: center;
     line-height: 60px;
-    float: left;
 }
 
 .nav-list a {
@@ -66,18 +67,15 @@ a {
 
 .nav-list .active, .nav-list .active:hover {
     width: 112px;
-    float: left;
     background: #0060c7;
 }
 
 .nav-link {
     width: 216px;
     height: 60px;
-    float: left;
 }
 
 .nav-link li {
-    float: left;
     height: 60px;
     font-size: 12px;
     color: #d2e7f9;
@@ -107,7 +105,6 @@ a {
     width: 102px;
     height: 60px;
     line-height: 60px;
-    float: left;
     margin-left: 64px;
     background: url("img/nav.gif") no-repeat left -120px;
 }
@@ -132,20 +129,28 @@ a {
     margin-top: 22px;
 }
 
-.location i {
+.location strong, .location i, .location span {
     font-style: normal;
+}
+
+.location i {
     color: #999;
 }
 
 .location span {
-    font-style: normal;
     color: #333;
 }
 
 .location strong {
-    font-weight: normal;
     color: #0089dc;
     padding-left: 20px;
+}
+
+#options {
+    width: 1180px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 13px;
 }
 
 #position input {
@@ -159,14 +164,21 @@ a {
     background: url("img/search.gif") no-repeat 260px 9px;
 }
 
-#options {
-    width: 1180px;
-    height: auto;
-    margin: 0 auto;
-    font-size: 13px;
+#options .all {
+    width: 80px;
+    height: 60px;
+    color: #999;
+    line-height: 44px;
+    padding-left: 22px;
+    float: left;
+    cursor: default;
 }
 
-#options li, #options li a, .table a {
+#options .tab:first-child {
+    margin-left: 90px;
+}
+
+.table a {
     width: 80px;
     text-align: center;
     line-height: 40px;
@@ -174,6 +186,21 @@ a {
     color: #666;
     cursor: pointer;
     padding: 2px;
+}
+
+.tab a {
+    height: 26px;
+    border-radius: 8px;
+    margin-right: 5px;
+    line-height: 26px !important;
+    margin-bottom: 5px;
+}
+
+.tab.hover a {
+    background: #0089dc;
+    border-radius: 8px;
+    line-height: 26px;
+    color: #fff;
 }
 
 .menu {
@@ -193,35 +220,6 @@ a {
     float: left;
 }
 
-.tab a {
-    height: 26px;
-    border-radius: 8px;
-    margin-right: 5px;
-    line-height: 26px !important;
-    margin-bottom: 5px;
-}
-
-.tab.hover a {
-    background: #0089dc;
-    border-radius: 8px;
-    line-height: 26px !important;
-    color: #fff !important;
-}
-
-#options .all {
-    width: 80px;
-    height: 60px;
-    line-height: 44px;
-    color: #999;
-    padding-left: 22px;
-    float: left;
-    cursor: default;
-}
-
-#options .tab:first-child {
-    margin-left: 90px;
-}
-
 #content {
     width: 1180px;
     height: auto;
@@ -238,21 +236,18 @@ a {
     margin-left: 38px;
 }
 
-.clearer {
-    clear: left;
-    line-height: 0;
-    height: 0;
-}
-
 .goodsContent {
     width: 250px;
     height: 138px;
 }
 
+.goodsList, .goodsImg img, .goodsImg p {
+    position: absolute;
+}
+
 .goodsContent .goodsImg img {
     width: 70px;
     height: 70px;
-    position: absolute;
     top: 20px;
     left: 0;
 }
@@ -263,23 +258,21 @@ a {
     color: #f74342;
     text-align: center;
     line-height: 12px;
-    position: absolute;
     top: 104px;
     left: 10px;
 }
 
 .goodsContent .goodsList {
-    position: absolute;
     left: 90px;
     top: 20px;
 }
 
 .goodsContent .goodsList li {
-    width: 150px !important;
+    width: 150px;
     height: 22px;
-    text-align: left !important;
-    line-height: 22px !important;
-    color: #999 !important;
+    text-align: left;
+    line-height: 22px;
+    color: #999;
     font-size: 12px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -287,7 +280,7 @@ a {
 }
 
 .goodsContent .goodsList li:first-child {
-    color: #333 !important;
+    color: #333;
     font-size: 16px;
     font-weight: bold;
 }
@@ -322,6 +315,7 @@ a {
 .deliverInfo {
     width: 264px;
     text-align: left;
+    font-size: 10px;
     margin: 20px auto 20px;
 }
 
@@ -364,11 +358,21 @@ a {
     z-index: 2;
 }
 
+.star {
+    color: #ffc328;
+}
+
 .mark {
     position: absolute;
     top: 18px;
     left: -10px;
     z-index: 2;
+}
+
+.clearer {
+    clear: left;
+    line-height: 0;
+    height: 0;
 }
 
 #footer {
@@ -387,6 +391,10 @@ a {
 #footer ul {
     float: left;
     margin-right: 120px;
+}
+
+.footerFirst {
+    color: #333 !important;
 }
 
 #footer .footeList li {
@@ -437,19 +445,19 @@ a {
     clear: both;
 }
 
-.footerInfo p:nth-child(2) {
-    color: #999;
-    line-height: 30px;
-    padding-bottom: 40px;
-    background: url("./img/img.gif") no-repeat 546px bottom;
-}
-
 .footerInfo p {
     width: 1180px;
     height: 30px;
     font-size: 12px;
+    line-height: 30px;
     text-align: center;
     color: #0e0e0e;
+}
+
+.footerInfo p:nth-child(2) {
+    color: #999;
+    padding-bottom: 40px;
+    background: url("./img/img.gif") no-repeat 546px bottom;
 }
 
 #side {
@@ -504,22 +512,20 @@ a {
     top: 680px;
 }
 
-.contact .download {
+.download, .service, .downloadInfo {
     position: absolute;
+}
+
+.contact .download {
     left: 10px;
 }
 
 .contact .service {
-    position: absolute;
     top: 40px;
     left: 9px;
 }
 
 .contact .downloadInfo {
-    position: absolute;
     top: -162px;
     left: -150px;
 }
-
-
-
