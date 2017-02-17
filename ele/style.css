@@ -175,13 +175,14 @@ a {
 }
 
 #options .tab:first-child {
-    margin-left: 90px;
+    margin-left: 110px;
 }
 
 .table a {
-    width: 80px;
+    width: auto;
     text-align: center;
     line-height: 40px;
+    margin-right: 32px;
     float: left;
     color: #666;
     cursor: pointer;
@@ -191,15 +192,16 @@ a {
 .tab a {
     height: 26px;
     border-radius: 8px;
-    margin-right: 5px;
+    margin-top: -6px;
     line-height: 26px !important;
     margin-bottom: 5px;
 }
 
 .tab.hover a {
     background: #0089dc;
-    border-radius: 8px;
+    border-radius:5px;
     line-height: 26px;
+    padding:0 1em;
     color: #fff;
 }
 
@@ -316,7 +318,7 @@ a {
     width: 264px;
     text-align: left;
     font-size: 12px;
-    margin: 26px auto 20px;
+    margin: 30px auto 20px;
 }
 
 .deliverInfo span:first-child {
