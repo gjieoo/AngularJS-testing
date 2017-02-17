@@ -1,3 +1,5 @@
-<li>
-    <a ui-sref="{{menu.specificallyInfo}}">{{menu.name}}</a>
-</li>
+<ul ng-repeat="x in menu">
+    <li class="tab" ng-class="{hover:isSelect==$index}" ng-click="selectMe($index)">
+        <a ui-sref="{{x.specificallyInfo}}">{{x.name}}</a>
+    </li>
+</ul>

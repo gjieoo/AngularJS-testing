@@ -3,6 +3,44 @@ var app = angular.module("myApp", ['ui.router'])
         $http.get('goods1.json').success(function (data) {
             $scope.goods = angular.fromJson(data);
         });
+        $scope.data = [[{name: '全部快餐便当', specificallyInfo: 'fastFood'},
+            {name: '米粉面馆', specificallyInfo: 'riceNoodles'},
+            {name: '简餐', specificallyInfo: 'simpleMeals'},
+            {name: '盖浇饭', specificallyInfo: 'riceBowl'},
+            {name: '香锅砂锅', specificallyInfo: 'incensePot'},
+            {name: '麻辣烫', specificallyInfo: 'hotpot'}],
+            [{name: '全部特色菜系', specificallyInfo: 'specialFood'},
+                {name: '川湘菜', specificallyInfo: 'sichuanDish'},
+                {name: '其他菜系', specificallyInfo: 'otherFood'},
+                {name: '西北菜', specificallyInfo: 'northwestFood'},
+                {name: '海鲜', specificallyInfo: 'seaFood'}],
+            [{name: '全部异国料理', specificallyInfo: 'foreignlandFood'},
+                {name: '披萨意面', specificallyInfo: 'pizza'},
+                {name: '日韩料理', specificallyInfo: 'japaneseFood'},
+                {name: '西餐', specificallyInfo: 'westFood'}],
+            [{name: '全部小吃夜宵', specificallyInfo: 'snackFood'},
+                {name: '地方小吃', specificallyInfo: 'localFood'},
+                {name: '炸鸡炸串', specificallyInfo: 'friedChicken'},
+                {name: '小龙虾', specificallyInfo: 'cray'},
+                {name: '烧烤', specificallyInfo: 'barbecue'},
+                {name: '鸭脖卤味', specificallyInfo: 'duckNeck'}],
+            [{name: '全部甜品饮品', specificallyInfo: 'sweetmeats'},
+                {name: '甜品', specificallyInfo: 'sweet'},
+                {name: '奶茶果汁', specificallyInfo: 'milkyTea'},
+                {name: '咖啡', specificallyInfo: 'coffee'}],
+            [{name: '全部果蔬生鲜', specificallyInfo: 'fruit'},
+                {name: '水果', specificallyInfo: 'fruitShop'}],
+            [{name: '全部鲜花蛋糕', specificallyInfo: 'cake'},
+                {name: '鲜花', specificallyInfo: 'flower'},
+                {name: '蛋糕', specificallyInfo: 'cakeShop'},
+                {name: '面包', specificallyInfo: 'bread'}],
+            [{name: '全部商店超市', specificallyInfo: 'supermarket'},
+                {name: '超市', specificallyInfo: 'store'},
+                {name: '水站', specificallyInfo: 'water'}]];
+        $scope.isSelect = 0;
+        $scope.selectMe = function ($index) {
+            $scope.isSelect = $index;
+        };
 
     }])
     .controller('myImgs', ['$scope', function ($scope) {
@@ -153,10 +191,9 @@ var app = angular.module("myApp", ['ui.router'])
             replace: true,
             scope: {},
             templateUrl: "./directive/myTabs.html",
-            controller: ["$scope", function ($scope) {     //使用controller让最内层指令来继承外层指令，这样内层就可以
-                // 通过scope的传导，来与外层指令进行数据之间的传递
+            controller: ["$scope", function ($scope) {
                 var panes = $scope.scopes = [];
-                $scope.select = function (pane) {            //实现tabs功能
+                $scope.select = function (pane) {                   //实现tabs功能
                     angular.forEach(panes, function (scope) {      //遍历所有内存指令scope，统一隐藏内容。
                         scope.selected = false;
                     });
@@ -185,6 +222,16 @@ var app = angular.module("myApp", ['ui.router'])
             link: function (scope, elemenet, attrs, myTabsController) {
                 myTabsController.addScope(scope);                    //把内层指令的scope存入到外层指令中，让外层遍历。
             }
+        }
+    })
+    .directive("subMenu", function () {
+        return {
+            restrict: "EA",
+            replace: true,
+            scope: {
+                menu: '='
+            },
+            templateUrl: "./directive/subMenu.html"
         }
     })
     .directive("myImg", function () {
@@ -226,45 +273,5 @@ var app = angular.module("myApp", ['ui.router'])
                 $scope.stars = stars;
 
             }
-        };
-    })
-    .controller('myCtrl', ['$scope', function ($scope) {
-        $scope.data = [[{name: '全部快餐便当', specificallyInfo: 'fastFood'},
-            {name: '米粉面馆', specificallyInfo: 'riceNoodles'},
-            {name: '简餐', specificallyInfo: 'simpleMeals'},
-            {name: '盖浇饭', specificallyInfo: 'riceBowl'},
-            {name: '香锅砂锅', specificallyInfo: 'incensePot'},
-            {name: '麻辣烫', specificallyInfo: 'hotpot'}],
-            [{name: '全部特色菜系', specificallyInfo: 'specialFood'},
-                {name: '川湘菜', specificallyInfo: 'sichuanDish'},
-                {name: '其他菜系', specificallyInfo: 'otherFood'},
-                {name: '西北菜', specificallyInfo: 'northwestFood'},
-                {name: '海鲜', specificallyInfo: 'seaFood'}],
-            [{name: '全部异国料理', specificallyInfo: 'foreignlandFood'},
-                {name: '披萨意面', specificallyInfo: 'pizza'},
-                {name: '日韩料理', specificallyInfo: 'japaneseFood'},
-                {name: '西餐', specificallyInfo: 'westFood'}],
-            [{name: '全部小吃夜宵', specificallyInfo: 'snackFood'},
-                {name: '地方小吃', specificallyInfo: 'localFood'},
-                {name: '炸鸡炸串', specificallyInfo: 'friedChicken'},
-                {name: '小龙虾', specificallyInfo: 'cray'},
-                {name: '烧烤', specificallyInfo: 'barbecue'},
-                {name: '鸭脖卤味', specificallyInfo: 'duckNeck'}],
-            [{name: '全部甜品饮品', specificallyInfo: 'sweetmeats'},
-                {name: '甜品', specificallyInfo: 'sweet'},
-                {name: '奶茶果汁', specificallyInfo: 'milkyTea'},
-                {name: '咖啡', specificallyInfo: 'coffee'}],
-            [{name: '全部果蔬生鲜', specificallyInfo: 'fruit'},
-                {name: '水果', specificallyInfo: 'fruitShop'}],
-            [{name: '全部鲜花蛋糕', specificallyInfo: 'cake'},
-                {name: '鲜花', specificallyInfo: 'flower'},
-                {name: '蛋糕', specificallyInfo: 'cakeShop'},
-                {name: '面包', specificallyInfo: 'bread'}],
-            [{name: '全部商店超市', specificallyInfo: 'supermarket'},
-                {name: '超市', specificallyInfo: 'store'},
-                {name: '水站', specificallyInfo: 'water'}]];
-        $scope.isSelect = 0;
-        $scope.selectMe = function ($index) {
-            $scope.isSelect = $index;
-        };
-    }]);
+        }
+    });
