@@ -26,7 +26,7 @@ a {
     float: left;
 }
 
-#nav {
+nav {
     width: 1880px;
     height: 60px;
     background: #1e89e0;
@@ -226,7 +226,7 @@ a {
     width: 1180px;
     height: auto;
     border: 1px solid #e6e6e6;
-    margin: 20px auto 0;
+    margin: 20px auto 40px;
     clear: both;
 }
 
@@ -340,7 +340,7 @@ a {
 
 .goodName {
     width: 264px;
-    height: 60px;
+    height: auto;
     color: #333;
     font-size: 16px;
     font-weight: bold;
@@ -377,7 +377,7 @@ a {
     height: 0;
 }
 
-#footer {
+footer {
     width: auto;
     height: 350px;
     margin: 0 auto;
@@ -386,11 +386,11 @@ a {
     clear: both;
 }
 
-#footer .footerOne {
+footer .footerOne {
     margin-left: 360px;
 }
 
-#footer ul {
+footer ul {
     float: left;
     margin-right: 120px;
 }
@@ -399,7 +399,7 @@ a {
     color: #333 !important;
 }
 
-#footer .footeList li {
+footer .footeList li {
     height: 30px;
     line-height: 30px;
     text-align: left;
@@ -407,11 +407,11 @@ a {
     color: #999;
 }
 
-#footer .fontLink {
+footer .fontLink {
     margin-top: 20px;
 }
 
-#footer .fontLink li {
+footer .fontLink li {
     height: 18px;
     line-height: 18px;
     text-align: left;
