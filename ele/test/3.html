@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .flex-container {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around
+        }
+
+        .flex-item {
+            background: tomato;
+            padding: 5px;
+            width: 200px;
+            height: 150px;
+            margin-top: 10px;
+            line-height: 150px;
+            color: white;
+            font-weight: bold;
+            font-size: 3em;
+            text-align: center
+        }
+    </style>
+</head>
+<body>
+<ul class="flex-container">
+    <li class="flex-item">1</li>
+    <li class="flex-item">2</li>
+    <li class="flex-item">3</li>
+    <li class="flex-item">4</li>
+    <li class="flex-item">5</li>
+    <li class="flex-item">6</li>
+</ul>
+</body>
+</html>
+<!--
+通过设置父类容器的css代码控制子元素的排列方式（flex-direction:row）从左到右（默认方式）。
+子元素超出内容时是否换行。flex-wrap:wrap（采用换行的方式）。
+合起来就是flex-flow:row wrap
+设置子元素的弹性盒堆叠伸缩行的对齐方式为在盒子中平局分布 justify-content:space-around-->
