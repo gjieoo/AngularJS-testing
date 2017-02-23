@@ -4,7 +4,7 @@
 }
 
 body {
-    width:1904px;
+    width: 1904px;
     display: flex;
     background: #f7f7f7;
     font-family: Microsoft Yahei;
@@ -27,8 +27,9 @@ a {
     flex-direction: column;
     align-items: center;
 }
+
 nav {
-    width: 1868px;
+    width: 1874px;
     height: 60px;
     background: #1e89e0;
     display: flex;
@@ -469,80 +470,71 @@ footer .fontLink li {
     padding-bottom: 40px;
     background: url("./img/img.gif") no-repeat 546px bottom;
 }
+
 #side {
-    width: 52px;
+    width: 46px;
     height: 974px;
     background: #504d53;
-    display: flex;
     position: fixed;
+    display: flex;
+    align-items: stretch;
     right: 0;
 }
-/*#side {*/
-/*width: 40px;*/
-/*height: 974px;*/
-/*background: #504d53;*/
-/*margin-bottom: 22px;*/
-/*position: fixed;*/
-/*right: 0;*/
-/*}*/
 
-/*.info {*/
-/*width: 34px;*/
-/*height: 166px;*/
-/*float: left;*/
-/*position: relative;*/
-/*top: 265px;*/
-/*}*/
+.info {
+    width: 34px;
+    height: 166px;
+    position: relative;
+    top: 265px;
+}
 
-/*.info .indent, .info .line1, .info .cart, .info .myInfo, .info .line2 {*/
-/*position: absolute;*/
-/*left: 9px;*/
-/*}*/
+.info .indent, .info .line1, .info .cart, .info .myInfo, .info .line2 {
+    position: absolute;
+    left:14px;
+}
 
-/*.info .cart {*/
-/*top: 48px;*/
-/*}*/
+.info .cart {
+    top: 48px;
+}
 
-/*.info .myInfo {*/
-/*top: 152px;*/
-/*}*/
+.info .myInfo {
+    top: 152px;
+}
 
-/*.info .line1 {*/
-/*top: 20px;*/
-/*}*/
+.info .line1 {
+    top: 20px;
+}
 
-/*.info .line2 {*/
-/*top: 120px;*/
-/*}*/
+.info .line2 {
+    top: 120px;
+}
 
-/*.indentInfo {*/
-/*position: absolute;*/
-/*top: -5px;*/
-/*left: -92px;*/
-/*}*/
+.indentInfo {
+    position: absolute;
+    top: -5px;
+    left: -102px;
+}
 
-/*.contact {*/
-/*width: 34px;*/
-/*height: 60px;*/
-/*float: left;*/
-/*position: relative;*/
-/*top: 680px;*/
-/*}*/
+.contact {
+    width: 34px;
+    height: 60px;
+    position: relative;
+    top: 680px;
+}
 
-/*.download, .service, .downloadInfo {*/
-/*position: absolute;*/
-/*}*/
+.download, .service, .downloadInfo {
+    position: absolute;
+}
 
-/*.contact .download {*/
-/*left: 10px;*/
-/*}*/
+.contact .download ,.contact .service {
+    left:-10px;
+}
 
-/*.contact .service {*/
-/*top: 40px;*/
-/*left: 9px;*/
-/*}*/
+.contact .service {
+    top: 40px;
+}
 
-/*.contact .downloadInfo {*/
-/*top: -162px;*/
-/*left: -150px;*/
-/*}*/
+.contact .downloadInfo {
+    top: -162px;
+    left: -150px;
+}
